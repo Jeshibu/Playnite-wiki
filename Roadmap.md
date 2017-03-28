@@ -31,6 +31,7 @@
 * Translations
 * Download backgrounds for Origin games
 * Beta/Supporter branch support with separate updates
+* Automatically relaunch when crash occurs (or provider option to do so from crash window)
 
 ## Unsorted ideas, without assigned version
 * Add non-PC platforms with support for emulators
