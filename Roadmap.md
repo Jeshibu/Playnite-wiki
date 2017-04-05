@@ -15,7 +15,6 @@
 * Option to scan folders for bulk addition of games
 * Fix up theme (remove unnecessary animations and improve color pallet)
 * Add some basic PC info into diagnostics packages (CPU, RAM, OS Version)
-* Add button to report issue directly from application
 
 ## 0.90
 
