@@ -1,6 +1,6 @@
 #### This is only basic idea what I would like to focus on. If more people will show interest in developing Playnite I will move to proper project management here on GitHub.
 
-## 0.80
+## 0.70 -> 0.80
 
 * **In Development** - Better notification bar and progress bar
     * Current implementation moves the whole layout when visible
@@ -16,7 +16,7 @@
 * Fix up theme (remove unnecessary animations and improve color pallet)
 * Add some basic PC info into diagnostics packages (CPU, RAM, OS Version)
 
-## 0.90
+## 0.80 -> 0.90
 
 * Add additional metadata providers (currently only Wiki) like MobyGames and IGDB
 * Speedup initial metadata download (make all provider run in parallel)
@@ -24,7 +24,7 @@
 * Speedup filters with partial reload of the view
 * Sorting and filtering for all fileds
 
-## 1.00
+## 0.90 -> 1.00
 * Hi DPI support
     * Rework all popups to use standard menu controls
 * Translations
