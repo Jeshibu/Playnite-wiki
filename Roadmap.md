@@ -5,7 +5,7 @@
 * **Done** - Better notification bar and progress bar
     * Current implementation moves the whole layout when visible
 * **In Development** - More integration and UI tests
-* [Service login improvements #12](../../issues/12)
+* [Service login improvements #12](../issues/12)
     * Show successful/unsuccessful login attempts to GOG/Origin in first time wizard and settings windows
     * Offer re-login when library download fails by clicking on notification
 * [Better update dialog #13](../../issues/13)
