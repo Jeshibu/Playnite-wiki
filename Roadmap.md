@@ -1,21 +1,5 @@
 #### This is only basic idea what I would like to focus on. If more people will show interest in developing Playnite I will move to proper project management here on GitHub.
 
-## 0.70 -> 0.80
-
-* **Done** - Better notification bar and progress bar
-    * Current implementation moves the whole layout when visible
-* **In Development** - More integration and UI tests
-* [Service login improvements #12](../issues/12)
-    * Show successful/unsuccessful login attempts to GOG/Origin in first time wizard and settings windows
-    * Offer re-login when library download fails by clicking on notification
-* [Better update dialog #13](../issues/13)
-    * Show changes and new features from last version when Playnite updates
-* [Options to reset metadata to default values #14](../issues/14)
-    * Will re-download game metadata and images from provider site (Steam, GOG etc.) and reset them to default value
-* [Option to scan folders for bulk addition of games #15](../issues/15)
-* [Fix up theme #16](../issues/16)
-* [Add some basic PC info into diagnostics packages (CPU, RAM, OS Version) #17](../issues/17)
-
 ## 0.80 -> 0.90
 
 * [Add additional metadata providers #18](../issues/18)
