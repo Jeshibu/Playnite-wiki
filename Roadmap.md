@@ -11,7 +11,6 @@
 * [High DPI support #22](../issues/22)
 * [Translations #23](../issues/23)
 * [Beta/Supporter branch support with separate updates #24](../issues/24)
-* [Automatically relaunch when crash occurs (or provide option to do so from crash window) #25](../issues/25)
 
 ## Unsorted ideas, without assigned version
 * Add non-PC platforms with support for emulators
