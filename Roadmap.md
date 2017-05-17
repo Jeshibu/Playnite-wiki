@@ -23,3 +23,4 @@
     * Maybe display some howlongtobeat.com data?
 * Media tab, display internet stuff related to game (news, live streamers, YT videos etc.)
 * Big picture with controller support
+* Game save backup for custom games
