@@ -9,8 +9,6 @@
 * Add non-PC platforms with support for emulators
 * Add DOSBox configuration GUI
 * Add additional launch options for legacy games (limit CPU cores, CPU speed fix, compatibility flags etc.)
-* Automatically detect when 3rd party finishes installing/uninstalling game and update status in Playnite
-* Task bar jump list support for last played games
 * Option to minimize to tray
 * Count play time
     * Maybe display some howlongtobeat.com data?
