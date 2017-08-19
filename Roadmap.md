@@ -1,10 +1,5 @@
 #### This is only basic idea what I would like to focus on. If more people will show interest in developing Playnite I will move to proper project management here on GitHub.
 
-## 0.90 -> 1.00
-* [High DPI support #22](../issues/22)
-* [Translations #23](../issues/23)
-* [Beta/Supporter branch support with separate updates #24](../issues/24)
-
 ## Unsorted ideas, without assigned version
 * Add non-PC platforms with support for emulators
 * Add DOSBox configuration GUI
