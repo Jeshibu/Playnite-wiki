@@ -4,7 +4,6 @@
 * Add non-PC platforms with support for emulators
 * Add DOSBox configuration GUI
 * Add additional launch options for legacy games (limit CPU cores, CPU speed fix, compatibility flags etc.)
-* Option to minimize to tray
 * Count play time
     * Maybe display some howlongtobeat.com data?
 * Media tab, display internet stuff related to game (news, live streamers, YT videos etc.)
