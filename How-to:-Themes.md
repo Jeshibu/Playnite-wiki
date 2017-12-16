@@ -38,6 +38,8 @@ You will not get XAML object completion when editing themes, until you load comp
 
 There's no documentation for model objects and available commands. For now you have to either look at source for [view-model classes](https://github.com/JosefNemec/Playnite/tree/master/source/PlayniteUI/ViewModels) or check how original themes are written.
 
+All style definitions must be in a single file, which makes it a bit messy to edit.
+
 ## Help
 If you need any help with writing themes then join [Playnite's Discord server](https://discord.gg/hSFvmN6) and ask in `#development` channel.
 
