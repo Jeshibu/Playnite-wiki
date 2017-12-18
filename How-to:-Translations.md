@@ -18,7 +18,7 @@ To update localization file with new strings (after new Playnite update adds new
 
 1. Download [UpdateLocFiles.ps1](https://github.com/JosefNemec/Playnite/blob/master/scripts/UpdateLocFiles.ps1) script
 
-2. If this is first you are running PowerShell script, start PowerShell as administrator and type following: `Set-ExecutionPolicy Unrestricted`
+2. If this is first time you are running PowerShell script, start PowerShell as administrator and type following: `Set-ExecutionPolicy Unrestricted`
 
 3. Execute script with following parameters:
    * `SourceDictionary` - full path to `english.xaml` file
