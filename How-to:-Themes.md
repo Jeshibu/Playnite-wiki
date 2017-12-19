@@ -1,5 +1,7 @@
 Playnite uses [XAML](https://msdn.microsoft.com/en-us/library/cc295302.aspx) to create UI views, which means that you don't need to write a single line of code to create new themes.
 
+It's highly recommended that you subscribe to [Theme updates issue #325](https://github.com/JosefNemec/Playnite/issues/325), which is updated every time change is made in Playnite that affects UI themes (added features, localization etc.)
+
 ## Quick start
 Themes are located in `Skins` folder inside Playnite application folder.
 
