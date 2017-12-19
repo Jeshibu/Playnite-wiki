@@ -10,8 +10,7 @@
 
 4. Start Playnite and test that new localization file works properly
 
-5. Submit pull request with new localization file
-   * Alternatively [open new issue](https://github.com/JosefNemec/Playnite/issues) and attach new localization file there, if you don't have working Git setup
+5. [Open new issue](https://github.com/JosefNemec/Playnite/issues) and attach new localization file there. Issue will be notified when new strings are added into Playnite for translation.
 
 ## Updating existing language
 To update localization file with new strings (after new Playnite update adds new strings into english.xaml), do following:
