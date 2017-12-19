@@ -1,4 +1,6 @@
 ## Adding new language
+**Check if language is already being worked on via [this list](https://github.com/JosefNemec/Playnite/issues?q=is%3Aopen+is%3Aissue+label%3Alocalization)**
+
 1. Copy and rename English localization file `english.xaml` from `Localization` folder
 
 2. Edit new file and change following strings:
