@@ -14,6 +14,8 @@
 
 5. [Open new issue](https://github.com/JosefNemec/Playnite/issues) and attach new localization file there. Issue will be notified when new strings are added into Playnite for translation.
 
+6. Subscribe to [localization updates](https://github.com/JosefNemec/Playnite/issues/385) issue, to be notified when English strings are being added/updated to update your translation.
+
 ## Updating existing language
 To update localization file with new strings (after new Playnite update adds new strings into english.xaml), do following:
 
