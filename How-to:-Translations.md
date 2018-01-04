@@ -17,7 +17,8 @@
 6. Subscribe to [localization updates](https://github.com/JosefNemec/Playnite/issues/385) issue, to be notified when English strings are being added/updated to update your translation.
 
 ## Updating existing language
-To update localization file with new strings (after new Playnite update adds new strings into english.xaml), do following:
+
+To automatically update localization file with new strings (after new Playnite update adds new strings into english.xaml), do following (you don't have to use the script, you can also update the file manually):
 
 1. Download [UpdateLocFiles.ps1](https://github.com/JosefNemec/Playnite/blob/master/scripts/UpdateLocFiles.ps1) script
 
