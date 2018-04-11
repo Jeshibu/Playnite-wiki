@@ -5,4 +5,4 @@
 
 ![](https://raw.githubusercontent.com/JosefNemec/Playnite/devel/web/steamaccountname.png)
 
-> Remember that your account's **Profile Status** has to be set to **Public** for Playnite to be able to sync to your library.
+> For private accounts you will need to obtain [Steam API key](https://steamcommunity.com/dev/apikey) and set it in Playnite as well. Otherwise your account's **Profile Status** has to be set to **Public** for Playnite to be able to sync to your library and **Game details** has to be **Public** as well. 
