@@ -1,0 +1,1 @@
+# See [extensions portal](https://playnite.link/docs/) with complete API documentation and tutorials.
