@@ -1,4 +1,4 @@
-Known issue:
+Known issues:
 --------
 [[Known Issues]] page offers list of commonly known issues and solutions.
 
