@@ -39,8 +39,9 @@ Various variables can be used to create dynamic strings. For example when settin
 |Variable|Description|
 | ------------- | ------------- |
 |{InstallDir}|Game installation directory|
+|{InstallDirName}|Name of installation folder
 |{ImagePath}|Game ISO/ROM path if set|
 |{ImageName}|Game ISO/ROM file name|
 |{ImageNameNoExt}|Game ISO/ROM file name without extension|
 |{PlayniteDir}|Playnite's installation directory|
-
+|{Name}|Game name
