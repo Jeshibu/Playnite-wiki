@@ -13,7 +13,7 @@ User Manual
 ### Emulation
 * [[Adding new emulator]]
 
-### 3rd part libraries
+### 3rd party libraries
 * [Steam account configuration](https://github.com/JosefNemec/Playnite/wiki/How-to-get-Steam-account-name)
 
 ### Input
