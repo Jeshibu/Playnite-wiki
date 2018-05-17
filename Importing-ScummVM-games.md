@@ -8,7 +8,7 @@ ScummVM requires different setup compared to other emulators supported by Playni
   - Open `Emulators` tab and use `Import Emulators` button to import ScummVM
 
 - Download [ScummVM game import script](https://raw.githubusercontent.com/JosefNemec/Playnite/master/scripts/Extensions/ScummVMImporter.ps1)
-  - Save it to [PowerShell scripts folder](https://playnite.link/docs/tutorials/scripting.html#basics)
+  - [Install the script](https://github.com/JosefNemec/Playnite/wiki/Installing-scripts-and-plugins)
   - Load the script via `Tools` -> `Reload scripts` (F12)
 
 - Use `Extensions` -> `Import ScummVM Games` menu
