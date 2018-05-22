@@ -13,10 +13,32 @@ Portable zip package can be built when using **-Portable** parameter.
 
 ## Development environment
 
-Playnite runs in development environment without extra configuration with exception of Steam library import, IGDB integration and auto-update features.
+`Debug` builds are configured to throw exceptions even in cases where `Release` builds would log error message. This is mainly for cases where Playnite can recover and still work properly, but indicates some issue that should be investigated. If you want to suppress these exceptions with `Debug` builds then edit `App.Debug.config` and set `ThrowAllErrors` to `False`.
+
+## Playnite Services deployment
+Several Playnite features are depended on separate Playnite service. Specifically:
+* Steam library import
+* Steam metadata download
+* IGDB integration
+* Patreon integration
+
+To deploy your own services instance:
+* Build **PlayniteServices** project, either manually from VS, using **buildServices.ps1** script or via ```dotnet publish```
+* Create configuration file `customSettings.json` inside service folder
+* Specify content of `customSettings.json` based on `appsettings.json`. For example adding your own Steam API key will look like this:
+```
+  "Steam": {
+    "ApiKey": "customapikeyhere"
+  }
+```
+* You need provide your own API keys and other values for all empty fields from `appsettings.json`
+* Deploy project to [web server](https://docs.microsoft.com/en-us/aspnet/core/publishing/) or run it directly via ```dotnet .\PlayniteServices.dll```
+* Configure root endpoint inside `App.Debug.config` file via `ServicesUrl` key.
+
+**DO NOT run let development builds connect to production service instance. This might potentially lead to serious issues causing problems to all users!**
 
 ### Auto-Update
-Requires simple web server serving **update.json** file with information about available version. URL with update.json has to be configured in **app.(Debug|Release).config** file, **UpdateUrl** key.
+Requires simple web server serving `update.json` file with information about available version. URL with update.json has to be configured in `App.Debug.config` file via `UpdateUrl` key.
 
 Example file:
 ```
@@ -27,15 +49,3 @@ Example file:
     }
 }
 ```
-
-### Steam import
-In order to download information about full Steam library (installed games can be imported without this), Steam API has to be used with proper API key obtained from Valve. Since API access comes with some limitations (1 request per second and 100k requests per day), Playnite doesn't directly access Steam API, but uses caching service. This also prevents distribution of API keys to end users.
-
-To deploy caching service in development environment, you must do following:
-* Build **PlayniteServices** project, either manually from VS, using **buildServices.ps1** script or via ```dotnet publish```
-* Create configuration file with Steam API key called **customSettings.json** inside service folder (copy empty settings from appsettings.json)
-* Deploy project to [web server](https://docs.microsoft.com/en-us/aspnet/core/publishing/) or run it directly via ```dotnet .\PlayniteServices.dll```
-* Configure root endpoint inside **app.(Debug|Release).config** file, **ServicesUrl** key.
-
-### IGDB integration
-Similarly to Steam integration, IGDB services require API key to be configured in `customSettings.json` file under `IGDB` config section.
