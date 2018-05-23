@@ -3,6 +3,7 @@ User Manual
 ### General
 * [[Feature table based on library provider]]
 * [[Game actions]]
+* [[Importing play time]]
 
 ### Adding Games
 * [[Adding games manually]]
