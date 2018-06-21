@@ -27,6 +27,7 @@ User Manual
 Troubleshooting
 --------
 * [[Known Issues]] page offers list of commonly known issues and solutions.
+* [[Frequently Asked Questions]]
 * [[Sending feedback]]
 
 Development
