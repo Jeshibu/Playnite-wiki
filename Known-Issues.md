@@ -25,3 +25,14 @@ Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigat
 ### AuthorizationManager check failed error at startup
 
 If you are using portable version of Playnite then Windows may be blocking loading of some script files. Go to Playnites program folder, under `Scripts` subfolder locate script files reporting AuthorizationManager error, open file properties (via right-click on the file) and unblock the files.
+
+### Error opening database: Unable to cast object of type 'LiteDB.EmptyPage' to type 'LiteDB.DataPage'
+
+In some rare cases database file can get damaged when shutting down Playnite (primarily when using version 4.20 and older).
+
+To fix this issue:
+- Download https://playnite.link/download/DbTools.exe
+- Place it inside Playnite's installation folder
+- Run `DbTools.exe`
+
+It may take a while for tool to finish depending on a size of your library.
