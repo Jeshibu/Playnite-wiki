@@ -30,6 +30,10 @@ Some Battle.Net games can be wrongly reported as uninstalled even if Battle.Net 
 
 If you are using portable version of Playnite then Windows may be blocking loading of some script files. Go to Playnites program folder, under `Scripts` subfolder locate script files reporting AuthorizationManager error, open file properties (via right-click on the file) and unblock the files.
 
+### Extensions menu is grayed out / PowerShell extensions not loading
+
+Occurs on Windows 7 if PowerShell 5 is not installed. [Downloads and install](https://www.microsoft.com/en-us/download/details.aspx?id=54616) PowerShell 5 to fix the issue.
+
 ### Error opening database: Unable to cast object of type 'LiteDB.EmptyPage' to type 'LiteDB.DataPage'
 
 In some rare cases database file can get damaged when shutting down Playnite (primarily when using version 4.20 and older).
