@@ -20,7 +20,7 @@ Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix
 
 ### UI stuttering when scrolling large lists
 
-Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue #454
+Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue [#454](https://github.com/JosefNemec/Playnite/issues/454)
 
 ### Battle.Net games not reported as installed
 
