@@ -3,11 +3,11 @@
 Solution will properly load only in Visual Studio 2017 because it contains ASP.NET Core project with .csproj project configuration, which is not supported in 2015. Otherwise there are no other requirements to build from VS, all references should be downloaded from NuGet.
 
 ### Build scripts
-To build from cmdline run **build.ps1** in PowerShell, script builds Release configuration by default into the same directory. Script accepts *Configuration*, *OutputPath*, *Setup*, *Portable* and *SkipBuild* parameters.
+To build from cmdline run **build.ps1** in PowerShell, script builds Release configuration by default into the same directory.
 
 ### Building installer
-[NSIS 3+](http://nsis.sourceforge.net/Main_Page) with [NsProcess plugin](http://nsis.sourceforge.net/NsProcess_plugin) is required to build installer. To build installer run build script with **-Setup** parameter:
-``` .\build.ps1 -Setup ```
+[Inno Setup](http://jrsoftware.org/isinfo.php) is required to build installer. To build installer run build script with **-Setup** parameter:
+``` .\build.ps1 -Installers```
 
 Portable zip package can be built when using **-Portable** parameter.
 
@@ -23,29 +23,65 @@ Several Playnite features are depended on separate Playnite service. Specificall
 * Patreon integration
 
 To deploy your own services instance:
-* Build **PlayniteServices** project, either manually from VS, using **buildServices.ps1** script or via ```dotnet publish```
-* Create configuration file `customSettings.json` inside service folder
+* Navigate to `source\PlayniteServices\` folder
+* Create configuration file `customSettings.json`
 * Specify content of `customSettings.json` based on `appsettings.json`. For example adding your own Steam API key will look like this:
 ```
   "Steam": {
     "ApiKey": "customapikeyhere"
   }
 ```
-* You need provide your own API keys and other values for all empty fields from `appsettings.json`
-* Deploy project to [web server](https://docs.microsoft.com/en-us/aspnet/core/publishing/) or run it directly via ```dotnet .\PlayniteServices.dll```
-* Configure root endpoint inside `App.Debug.config` file via `ServicesUrl` key.
+* You need to provide your own API keys and other values for all empty fields from `appsettings.json` (just for services that you want to use, you can ignore Patreon values for example)
+* open cmdline and run `dotnet run` from the same folder
+* server should start and listen on port 5000
+* **Optional:** Configure root endpoint inside `App.Debug.config` file via `ServicesUrl` key if you start service on other port then default 5000.
 
 **DO NOT run let development builds connect to production service instance. This might potentially lead to serious issues causing problems to all users!**
 
 ### Auto-Update
-Requires simple web server serving `update.json` file with information about available version. URL with update.json has to be configured in `App.Debug.config` file via `UpdateUrl` key.
+Requires simple web server serving `info.json` file with information about available files. URL with info.json has to be configured in `App.Debug.config` file via `UpdateUrl` key (`http://localhost/update` by default).
 
 Example file:
 ```
 {
-    "stable" : {
-        "version" : "0.70.0.0",
-        "url" : "https://localhost/build/PlayniteInstaller.exe"
-    }
+    "latestVersion":  "4.21",
+    "downloadServers": [
+        "http://localhost/build/",
+        "http://localhost/mirror/"
+    ],
+    "releaseNotesUrlRoots" : [ 
+        "http://localhost/update/"
+    ],
+    "packages": [
+        {
+            "baseVersion" : "4.21",
+            "fileName": "421.exe",
+            "checksum": "C4CEEA6981242B9087FF9065CE8E5AFD"
+        },
+        {
+            "baseVersion" : "4.2",
+            "fileName": "42to421.exe",
+            "checksum": "EECEEA6981242B9087FF9065CE8E5AFD"
+        },
+        {
+            "baseVersion" : "4.1",
+            "fileName": "41to421.exe",
+            "checksum": "BBBEEA6981242B9087FF9065CE8E5AFD"
+        }
+    ],
+    "releaseNotes" : [
+        {
+            "version" : "4.21",
+            "fileName" : "4.21.html"
+        },
+        {
+            "version" : "4.2",
+            "fileName" : "4.2.html"
+        },
+        {
+            "version" : "4.1",
+            "fileName" : "4.1.html"
+        }
+    ]
 }
 ```
