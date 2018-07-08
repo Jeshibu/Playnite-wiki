@@ -26,6 +26,10 @@ Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigat
 
 Some Battle.Net games can be wrongly reported as uninstalled even if Battle.Net client shows them as installed. To fix this open game in Battle.Net client, click `Options` and choose `Scan and Repair`.
 
+### GOG games not reported as installed
+
+Can occur if the game is installed by importing directory into Galaxy client. To fix this open game in Galaxy -> More -> Manage Installation -> Verify / Repair. Then refresh library in Playnite from main menu.
+
 ### AuthorizationManager check failed error at startup
 
 If you are using portable version of Playnite then Windows may be blocking loading of some script files. Go to Playnites program folder, under `Scripts` subfolder locate script files reporting AuthorizationManager error, open file properties (via right-click on the file) and unblock the files.
