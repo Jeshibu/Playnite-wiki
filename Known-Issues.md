@@ -6,6 +6,10 @@ Playnite can report some games as "uninstalled" even if they appear installed in
 
 Crash is caused by issue in Microsoft's update for .Net 4.7. Follow instructions from Microsoft's [support page](https://support.microsoft.com/en-us/help/4074906/typeinitializationexception-or-fileformatexception-error-in-wpf-apps-t) or manually install update KB4074906.
 
+### Portable version crashes at startup / during first time setup
+
+Occurs if Microsoft Visual C++ 2013 Redistributable is not installed. [Download](https://www.microsoft.com/en-us/download/details.aspx?id=40784) and install **x86** version to fix the issue.
+
 ### Crash on startup
 
 Can be cause by some versions of RivaTunner (or derived apps like MSI Afterburner). To fix the issue either disable GPU acceleration in settings menu (not recommended) or add Playnite to RivaTuner's [exclusion list](https://forums.guru3d.com/threads/excluding-my-application-by-default-rivatuner-causes-latent-crashes.412456/).
