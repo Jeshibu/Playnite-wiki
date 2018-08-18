@@ -16,6 +16,7 @@ User Manual
 
 ### 3rd party libraries
 * [Steam account configuration](https://github.com/JosefNemec/Playnite/wiki/How-to-get-Steam-account-name)
+* [GOG account configuration](https://github.com/JosefNemec/Playnite/wiki/How-to-get-GOG-account-name)
 
 ### Input
 * [[Keyboard shortcuts]]
