@@ -10,6 +10,10 @@ Crash is caused by issue in Microsoft's update for .Net 4.7. Follow instructions
 
 Occurs if Microsoft Visual C++ 2013 Redistributable is not installed. [Download](https://www.microsoft.com/en-us/download/details.aspx?id=40784) and install **x86** version to fix the issue.
 
+### Portable version crashes on "access denied" errors or fails to load various dll files
+
+If you used Windows Explorer to unpack portable zip file then Windows might be blocking access to some files. To fix this: Before you unpack the zip file, open its Properties (via right-click menu) and use `Unblock` button.
+
 ### Crash on startup
 
 Can be cause by some versions of RivaTunner (or derived apps like MSI Afterburner). To fix the issue either disable GPU acceleration in settings menu (not recommended) or add Playnite to RivaTuner's [exclusion list](https://forums.guru3d.com/threads/excluding-my-application-by-default-rivatuner-causes-latent-crashes.412456/).
