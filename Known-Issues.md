@@ -56,3 +56,4 @@ To fix this issue:
 - Run `DbTools.exe`
 
 It may take a while for tool to finish depending on a size of your library.
+If the tool doesn't fix the issue then [database file](https://github.com/JosefNemec/Playnite/wiki/Frequently-Asked-Questions#where-can-i-find-library-file-with-all-games) must be deleted to let Playnite recreate it from skratch.
