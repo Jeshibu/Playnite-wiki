@@ -4,7 +4,7 @@ Go to `Settings` menu and check `Database Location` on `General` tab.
 
 ### Where are cover/background images stored?
 
-All media files are currently stored in the same `.db` file as other library information.
+All media files are stored in `Database Location` directory together with other game information.
 
 ### How do I update Playnite?
 
