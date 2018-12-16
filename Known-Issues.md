@@ -1,3 +1,6 @@
+### Fullscreen mode doesn't render properly
+Can occur when using DPI scaling above 100%. Can be fixed by disabling DPI scaling in Playnite via `Settings -> Advanced -> Disable DPI Scaling` option.
+
 ### Some GOG games appearing as uninstalled in Playnite
 
 Playnite can report some games as "uninstalled" even if they appear installed in Galaxy client. This usually occurs if you import games to Galaxy via "Scan and import folders" feature instead of installing games fresh. Repairing game installations in Galaxy fixes the issue.
