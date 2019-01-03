@@ -1,4 +1,4 @@
-### Where can I find library file with all games?
+### Where can I find library folder with all games?
 
 Go to `Settings` menu and check `Database Location` on `General` tab.
 
