@@ -1,9 +1,27 @@
+## General features
 
-| Feature                  | Steam   | GOG     | Origin  | Uplay   | Battle.net |
-| - | - | - | - | - | - |
-| Detect installed games   | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| Detect uninstalled games | **Yes** | **Yes** | **Yes** | No      | **Yes** |
-| Count Play Time  | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| Import Play Time  | **Yes** | **Yes** | No | No | No |
-| Download Official Metadata | **Yes** | **Yes** | **Yes** | No      | Yes (no game descriptions) |
-| Download User Review Score | No      | **Yes** | No      | No      | No      | No      |
+|| Uninstalled games | Official metadata | Play time import | Play time counter | 
+| - | - | - | - | - |
+| Steam | • | • | • | • | 
+| GOG | • | • | • | • | 
+| Battle.net | • | • |  | • | 
+| Origin | • | • |  | • | 
+| Twitch |  • |  |  | • | 
+| Uplay |  |  |  | • | 
+| itch.io | • | • |  | • | 
+| Epic | • |  |  | • | 
+| Bethesda |  |  |  | • | 
+
+* Import of installed games is always supported
+
+## Official metadata support
+
+| | Icon | Background image | Description | User ratings | 
+| - | - | - | - | - |
+| Steam | • | • | • | • | 
+| GOG | • | • | • | • | 
+| Battle.net | • | • |  |  | 
+| Origin | •[1] | • | • |  | 
+| itch.io |  | • | • | • | 
+
+[1] Only if game is installed
