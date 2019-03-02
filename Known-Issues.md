@@ -27,7 +27,12 @@ Usually cased either by no internet connection or firewall blocking connection. 
 
 ### UI suttering and mouse lag
 
-Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue either disable GPU acceleration in settings menu (not recommended) or create Playnite profile in Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`.
+Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue either disable GPU acceleration in settings menu (not recommended) or create Playnite profile in Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
+
+* Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
+* Select the "Program Settings" tab
+* Click "Add" to add a program, and select Playnite
+* Change the "Monitor Technology" from "G-SYNC"  "Fixed Refresh"
 
 ### UI stuttering when scrolling large lists
 
