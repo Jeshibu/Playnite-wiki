@@ -29,7 +29,7 @@ User Manual
 Troubleshooting
 --------
 * [[Known Issues]] page offers list of commonly known issues and solutions.
-* [[Account synchronization issues]]
+* [[Account sync troubleshooting]]
 * [[Frequently Asked Questions]]
 * [[Sending feedback]]
 
