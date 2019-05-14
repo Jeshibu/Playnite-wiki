@@ -1,4 +1,4 @@
-> # **Themming support is currently being [completely reworked](https://github.com/JosefNemec/Playnite/issues/510) for future 4.x versions. It's highly recommend to wait for new system because old themes won't be compatible with new version.**
+> # **Themming support is currently being [completely reworked](https://github.com/JosefNemec/Playnite/issues/510) for future 5.x versions. It's highly recommend to wait for new system because old themes won't be compatible with new version.**
 
 Playnite uses [XAML](https://msdn.microsoft.com/en-us/library/cc295302.aspx) to create UI views, which means that you don't need to write a single line of code to create new themes.
 
