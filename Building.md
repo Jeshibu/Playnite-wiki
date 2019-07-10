@@ -15,6 +15,9 @@ Portable zip package can be built when using **-Portable** parameter.
 
 `Debug` builds are configured to throw exceptions even in cases where `Release` builds would log error message. This is mainly for cases where Playnite can recover and still work properly, but indicates some issue that should be investigated. If you want to suppress these exceptions with `Debug` builds then edit `App.Debug.config` and set `ThrowAllErrors` to `False`.
 
+## Fullscreen mode development
+Fullscreen mode uses [custom font files](https://assetstore.unity.com/packages/2d/gui/icons/xbox-one-playstation-4-buttons-pack-77916) that can't be redistributed with Playnite's source. If you want to develop Fullscreen mode you have to obtain your own license or replace them with compatible ones.
+
 ## Playnite Services deployment
 Several Playnite features are depended on separate Playnite service. Specifically:
 * Steam library import
