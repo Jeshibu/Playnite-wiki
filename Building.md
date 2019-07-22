@@ -2,6 +2,8 @@
 
 Solution will properly load only in Visual Studio 2017 because it contains ASP.NET Core project with .csproj project configuration, which is not supported in 2015. Otherwise there are no other requirements to build from VS, all references should be downloaded from NuGet.
 
+Visual Studio 2017+ and .NET SDK 4.6.2 is required to build the application.
+
 ### Build scripts
 To build from cmdline run **build.ps1** in PowerShell, script builds Release configuration by default into the same directory.
 
