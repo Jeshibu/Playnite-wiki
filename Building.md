@@ -2,20 +2,11 @@
 
 Solution will properly load only in Visual Studio 2017 because it contains ASP.NET Core project with .csproj project configuration, which is not supported in 2015. Otherwise there are no other requirements to build from VS, all references should be downloaded from NuGet.
 
-Visual Studio 2017 and .NET SDK 4.6.2 is required to build the application.
-
-### Build scripts
-To build from cmdline run **build.ps1** in PowerShell, script builds Release configuration by default into the same directory.
-
-### Building installer
-[Inno Setup](http://jrsoftware.org/isinfo.php) is required to build installer. To build installer run build script with **-Setup** parameter:
-``` .\build.ps1 -Installers```
-
-Portable zip package can be built when using **-Portable** parameter.
+.NET SDK 4.6.2 is required to build the application.
 
 ## Development environment
 
-`Debug` builds are configured to throw exceptions even in cases where `Release` builds would log error message. This is mainly for cases where Playnite can recover and still work properly, but indicates some issue that should be investigated. If you want to suppress these exceptions with `Debug` builds then edit `App.Debug.config` and set `ThrowAllErrors` to `False`.
+`Debug` builds are configured to throw exceptions even in cases where `Release` builds would log error message. This is mainly for cases where Playnite can recover and still work properly, but indicates some issue that should be investigated. If you want to suppress these exceptions with `Debug` builds then edit `Common.config` and set `ThrowAllErrors` to `False`.
 
 ## Fullscreen mode development
 Fullscreen mode uses [custom font files](https://assetstore.unity.com/packages/2d/gui/icons/xbox-one-playstation-4-buttons-pack-77916) that can't be redistributed with Playnite's source. If you want to develop Fullscreen mode you have to obtain your own license or replace them with compatible ones.
