@@ -1,6 +1,6 @@
 **[Download](https://github.com/JosefNemec/Playnite/releases/tag/5.1)**
 
-**Breaking**
+**Breaking changes**
 * Some application settings won't be carried over during update and will be reset to default values
 * Changed the way Steam account linking works, re-authentication will be required
 * Changed the way Twitch account linking works, re-authentication will be required
