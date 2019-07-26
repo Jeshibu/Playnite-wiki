@@ -4,6 +4,7 @@ User Manual
 * [[Feature table based on library provider]]
 * [[Game actions]]
 * [[Importing play time]]
+* [[Cmdline arguments]]
 
 ### Adding Games
 * [[Adding games manually]]
