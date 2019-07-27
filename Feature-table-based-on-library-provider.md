@@ -9,7 +9,7 @@
 | Twitch |  • |  |  | • | 
 | Uplay |  |  |  | • | 
 | itch.io | • | • |  | • | 
-| Epic | • |  |  | • | 
+| Epic | • | • |  | • | 
 | Bethesda |  |  |  | • | 
 
 * Import of installed games is always supported
@@ -23,5 +23,6 @@
 | Battle.net | • | • |  |  | 
 | Origin | •[1] | • | • |  | 
 | itch.io |  | • | • | • | 
+| Epic | •[1] | • | • | | 
 
 [1] Only if game is installed
