@@ -1,5 +1,8 @@
-### Fullscreen mode doesn't render properly
-Can occur when using DPI scaling above 100%. Can be fixed by disabling DPI scaling in Playnite via `Settings -> Advanced -> Disable DPI Scaling` option.
+### Some metadata are not being downloaded
+
+For some 3rd party stores we are unable to download all metadata, see [this table](https://github.com/JosefNemec/Playnite/wiki/Feature-table-based-on-library-provider) for more details.
+
+For manually games we fetch metadata from [IGDB database](https://www.igdb.com) based on the game's name. The name matching is not 100% accurate so it may happen that metadata won't be downloaded at all for some games. If that's the case you can manually download metadata from game edit dialog. Also we don't download background images for custom games at all.
 
 ### Some GOG games appearing as uninstalled in Playnite
 
@@ -33,6 +36,10 @@ Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix
 * Select the "Program Settings" tab
 * Click "Add" to add a program, and select Playnite
 * Change the "Monitor Technology" from "G-SYNC"  "Fixed Refresh"
+
+### UI suttering and mouse lag #2
+
+If you have blur applied to background image (can be changed in the settings), there's known issue with some integrated Intel GPUs that can't handle it properly. You will either need to lower the blur intensity and quality or disable it altogether.
 
 ### UI stuttering when scrolling large lists
 
