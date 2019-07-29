@@ -1,5 +1,7 @@
 **[Download](https://github.com/JosefNemec/Playnite/releases)**
 
+**If you are having performance issues after updating to Playnite 5. Try disabling or lowering quality of background blur. There's currently an issue with some Intel GPUs not handling it very well.**
+
 **Breaking changes**
 * Some application settings won't be carried over during update and will be reset to default values
 * Changed the way Steam account linking works, re-authentication will be required
