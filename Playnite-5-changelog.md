@@ -1,4 +1,4 @@
-**[Download](https://github.com/JosefNemec/Playnite/releases/tag/5.3)**
+**[Download](https://github.com/JosefNemec/Playnite/releases)**
 
 **Breaking changes**
 * Some application settings won't be carried over during update and will be reset to default values
