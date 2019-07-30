@@ -2,6 +2,8 @@
 
 Go to `Settings` menu and check `Database Location` on `General` tab.
 
+**Warning: Never combine two different library folders from different Playnite instances. It will generate duplicates in your library. If you are moving library to another Playnite instance always completely replace the folder, never just copy one over another.**
+
 ### Where are cover/background images stored?
 
 All media files are stored in `Database Location` directory together with other game information.
