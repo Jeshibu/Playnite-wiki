@@ -4,6 +4,10 @@ For some 3rd party stores we are unable to download all metadata, see [this tabl
 
 For manually games we fetch metadata from [IGDB database](https://www.igdb.com) based on the game's name. The name matching is not 100% accurate so it may happen that metadata won't be downloaded at all for some games. If that's the case you can manually download metadata from game edit dialog. Also we don't download background images for custom games at all.
 
+### Cannot authenticate with several accounts after Plynite was updated
+
+Using "Clear web cache" from "Advanced" settings menu will usually fixes the problem.
+
 ### Some GOG games appearing as uninstalled in Playnite
 
 Playnite can report some games as "uninstalled" even if they appear installed in Galaxy client. This usually occurs if you import games to Galaxy via "Scan and import folders" feature instead of installing games fresh. Repairing game installations in Galaxy fixes the issue.
