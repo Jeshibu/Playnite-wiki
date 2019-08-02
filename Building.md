@@ -4,6 +4,8 @@ Solution will properly load only in Visual Studio 2017 because it contains ASP.N
 
 .NET SDK 4.6.2 is required to build the application.
 
+For building inside VS make sure you are switched to `x86` solution configuration.
+
 ## Development environment
 
 `Debug` builds are configured to throw exceptions even in cases where `Release` builds would log error message. This is mainly for cases where Playnite can recover and still work properly, but indicates some issue that should be investigated. If you want to suppress these exceptions with `Debug` builds then edit `Common.config` and set `ThrowAllErrors` to `False`.
