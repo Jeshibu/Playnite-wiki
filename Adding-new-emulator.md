@@ -44,4 +44,9 @@ Various variables can be used to create dynamic strings. For example when settin
 |{ImageName}|Game ISO/ROM file name|
 |{ImageNameNoExt}|Game ISO/ROM file name without extension|
 |{PlayniteDir}|Playnite's installation directory|
-|{Name}|Game name
+|{Name}|Game name |
+|{Platform}|Game's platform |
+|{GameId}|Game's ID |
+|{DatabaseId}|Game's database ID |
+|{PluginId}|Game's library plugin ID |
+|{Version}|Game version|
