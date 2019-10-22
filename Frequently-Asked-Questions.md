@@ -2,6 +2,8 @@
 
 Go to `Settings` menu and check `Database Location` on `General` tab.
 
+By default for installed versions the library is in `%appdata\Playnite\library` folder and for portable it's just `library` folder inside the application folder.
+
 **Warning: Never combine two different library folders from different Playnite instances. It will generate duplicates in your library. If you are moving library to another Playnite instance always completely replace the folder, never just copy one over another.**
 
 ### Where are cover/background images stored?
