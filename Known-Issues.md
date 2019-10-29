@@ -1,3 +1,7 @@
+### Epic Store login fails with "pollingId is invalid" error
+
+See [this page](https://github.com/JosefNemec/Playnite/wiki/Account-sync-troubleshooting#epic-store).
+
 ### Some metadata are not being downloaded
 
 For some 3rd party stores we are unable to download all metadata, see [this table](https://github.com/JosefNemec/Playnite/wiki/Feature-table-based-on-library-provider) for more details.
