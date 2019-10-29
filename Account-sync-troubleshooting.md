@@ -27,3 +27,7 @@ Official [Itch client](https://itch.io/app) version 25 and newer must be install
 ### Twitch
 
 There's a [known issue](https://github.com/JosefNemec/Playnite/issues/991) with some specific accounts not being able to sync with Playnite. There's currently no solution.
+
+### Epic Store
+
+If you don't use password to sign-in into Epic account (for example by using Google sign-in) you can encounter `pollingId is invalid` error. [Solution is](https://github.com/JosefNemec/Playnite/issues/1416#issuecomment-531552248) to add password to your account and login in Playnite using password.
