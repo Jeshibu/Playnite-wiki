@@ -60,6 +60,10 @@ This is a battle.net issue, it likes to invalidate logging session way too soon.
 
 Can occur if the game is installed by importing directory into Galaxy client. To fix this open game in Galaxy -> More -> Manage Installation -> Verify / Repair. Then refresh library in Playnite from main menu.
 
+### Steam games on different drivers not getting imported
+
+Repair Steam installation by redownloading Steam setup. Steam installations get sometimes damaged in a weird way that prevents Playnite from detecting all games as installed.
+
 ### AuthorizationManager check failed error at startup
 
 If you are using portable version of Playnite then Windows may be blocking loading of some script files. Go to Playnites program folder, under `Scripts` subfolder locate script files reporting AuthorizationManager error, open file properties (via right-click on the file) and unblock the files.
