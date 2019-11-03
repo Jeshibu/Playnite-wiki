@@ -1,5 +1,5 @@
 
-**Metadata settings will be reset after updating to Playnite 6. If you use non-default settings then make sure you reconfigure them after update.**
+**!!! Metadata settings will be reset after updating to Playnite 6. If you use non-default settings then make sure you reconfigure them after update.**
 
 **New**
 * Ability to add new metadata providers via plugins
