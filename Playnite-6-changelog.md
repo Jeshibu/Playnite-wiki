@@ -12,6 +12,7 @@
 * Better indication that filter is being applied
 * Option to choose different text rendering modes
 * Option to toggle download of new vertical Steam cover images (enabled by default)
+* Option to connect accounts without importing uninstalled games
 * Lowered minimum allowed panel sizes
 * Updated RetroArch emulator profiles
 * Call of Duty: Modern Warfare support for Battle.net integration
@@ -36,7 +37,6 @@
 * Manual edits randomly not showing up until Playnite is restarted 
 * Play button icon is displayed on Grid View even if the game is not installed
 * Renaming a string in the Library Manager doesn't work when only changing string capitalization 
-* Better settings description for account linking
 
 
 Thanks goes to everyone who helped to test new release, everyone contributing patches and also people contributing localizations on our [Crowdin project page](https://crowdin.com/project/playnite).
