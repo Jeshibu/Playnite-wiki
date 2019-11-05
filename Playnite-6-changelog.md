@@ -1,4 +1,4 @@
-**!!! Metadata settings will be reset after updating to Playnite 6. If you use non-default settings then make sure you reconfigure them after update.**
+**!!! Default metadata download settings will be reset after updating to Playnite 6. If you use non-default settings then make sure you reconfigure them after update.**
 
 **!!! Web view component was updated in this release, which means that you may need to re-authenticate some account connections.** 
 
