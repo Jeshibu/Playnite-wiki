@@ -7,7 +7,7 @@
 | Battle.net | • | • |  | • | 
 | Origin | • | • |  | • | 
 | Twitch |  • |  |  | • | 
-| Uplay |  |  |  | • | 
+| Uplay | • | • |  | • | 
 | itch.io | • | • |  | • | 
 | Epic | • | • |  | • | 
 | Bethesda |  |  |  | • | 
