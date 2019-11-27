@@ -20,4 +20,31 @@ Portable editions have settings stored in `config.json` directly in Playnite's f
 
 ### How do I unhide game?
 
-Use **V** button next to the search field to open filter panel, select `Hidden` filter, right-click on hidden game and choose `Show in Library` option.
+Use "funnel" filter button next to the search field to open filter panel, select `Hidden` filter, right-click on hidden game and choose `Show in Library` option.
+
+### How do I convert installed version to portable?
+
+* Shutdown Playnite
+* Copy content of `%appdata\Playnite` into Playnite's application folder
+* Delete `unins000.exe` and `unins000.dat` files
+* Edit `config.json` and change `DatabasePath` property value to `"library"`
+
+### How do I start additional application(s) before game starts and kill it after game exits?
+
+* Edit game and go to `Scripts` tab
+* Change runtime to `PowerShell`
+* Set first script to start your application using [Start-Process](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-6) cmdlet
+```
+Start-Process "c:\somepath\someapp.exe" "-some arguments"
+```
+
+* Set second script to kill the application using [Stop-Process](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6) cmdlet
+
+```
+Stop-Process -Name "someapp"
+```
+* If the application requires elevated rights to start then you need to start Playnite as admin too, otherwise the `Stop-Process` will fail due to insufficient privileges.
+* If you want to start application minimized and application doesn't have native support for it then add `-WindowStyle` argument.
+```
+Start-Process "c:\somepath\someapp.exe" "-some arguments" -WindowStyle Minimized
+```
