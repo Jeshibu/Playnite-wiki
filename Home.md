@@ -20,6 +20,7 @@ User Manual
 * [GOG troubleshooting](https://github.com/JosefNemec/Playnite/wiki/How-to-get-GOG-account-name)
 * [Battle.net troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Battlenet-troubleshooting)
 * [Uplay troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Uplay-troubleshooting)
+* [Epic Game Store troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Epic-Game-Store-troubleshooting)
 
 ### Input
 * [[Keyboard shortcuts]]
