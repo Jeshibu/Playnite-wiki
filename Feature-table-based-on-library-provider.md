@@ -3,7 +3,7 @@
 || Uninstalled games | Official metadata | Play time import | Play time counter | 
 | - | - | - | - | - |
 | Steam | • | • | • | • | 
-| GOG | • | • | • | • | 
+| GOG | • | • |  | • | 
 | Battle.net | • | • |  | • | 
 | Origin | • | • |  | • | 
 | Twitch |  • |  |  | • | 
