@@ -24,5 +24,7 @@
 | Origin | •[1] | • | • |  | 
 | itch.io |  | • | • | • | 
 | Epic | •[1] | • | • | | 
+| Uplay| •[2] | •[2] | | | 
 
-[1] Only if game is installed
+* [1] Only if game is installed
+* [2] Only if import of uninstalled games is enabled
