@@ -1,3 +1,5 @@
+#### This lists only libraries supported officially in default Playnite installation. There are also [user made integrations](https://playnite.link/forum/forum-7.html) available, which can differ widely with supported functionality.
+
 ## General features
 
 || Uninstalled games | Official metadata | Play time import | Play time counter | 
