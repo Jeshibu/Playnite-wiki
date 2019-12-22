@@ -10,7 +10,7 @@ User Manual
 * [[Adding games manually]]
 * [[Importing Emulated games]]
 * [[Importing ScummVM games]] 
-* [[Importing Windows Store games]]
+* [[Importing Windows Store or Xbox App games]]
 
 ### Emulation
 * [[Adding new emulator]]
