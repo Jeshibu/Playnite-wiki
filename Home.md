@@ -24,7 +24,7 @@ User Manual
 
 ### Input
 * [[Keyboard shortcuts]]
-* [[Gamepad support]]
+* [[Gamepad/Controller support]]
 
 ### Using extensions
 * [[Installing scripts and plugins]]
