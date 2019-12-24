@@ -7,3 +7,4 @@ Playnite accepts following arguments form command line:
 | --startdesktop | Forces application to start in desktop mode. |
 | --forcesoftrender | Forces application to use software render, disabling GPU acceleration. |
 | --forcedefaulttheme | Forces application to use default theme. |
+| --hidesplashscreen | Won't show startup splash screen. |
