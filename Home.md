@@ -21,6 +21,7 @@ User Manual
 * [Battle.net troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Battlenet-troubleshooting)
 * [Uplay troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Uplay-troubleshooting)
 * [Epic Game Store troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Epic-Game-Store-troubleshooting)
+* [[Bethesda troubleshooting]]
 
 ### Input
 * [[Keyboard shortcuts]]
