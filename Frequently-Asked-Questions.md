@@ -1,3 +1,7 @@
+### Will there be Linux or macOS version?
+
+Not in near future, mainly for technical reasons. More information [here](https://github.com/JosefNemec/Playnite/issues/59).
+
 ### Where can I find library folder with all games?
 
 Go to `Settings` menu and check `Database Location` on `General` tab.
