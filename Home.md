@@ -22,6 +22,7 @@ User Manual
 * [Uplay troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Uplay-troubleshooting)
 * [Epic Game Store troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Epic-Game-Store-troubleshooting)
 * [[Bethesda troubleshooting]]
+* [[Humble Store troubleshooting]]
 
 ### Input
 * [[Keyboard shortcuts]]
