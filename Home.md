@@ -23,6 +23,7 @@ User Manual
 * [Epic Game Store troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Epic-Game-Store-troubleshooting)
 * [[Bethesda troubleshooting]]
 * [[Humble Store troubleshooting]]
+* [[Xbox Library troubleshooting]]
 
 ### Input
 * [[Keyboard shortcuts]]
