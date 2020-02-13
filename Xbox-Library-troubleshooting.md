@@ -1,3 +1,7 @@
+### Not all installed games are imported
+
+The game has to be started at least once to be properly picked by Playnite as installed. This will be most likely fixed in 7.1 update.
+
 ### Supported systems
 
 Import of installed games is only supported on Windows 10. Windows 8 version of Microsoft Store is not supported.
