@@ -5,7 +5,6 @@ User Manual
 * [[Cmdline arguments]]
 
 ### Adding Games
-* [[Adding games manually]]
 * [[Importing Emulated games]]
 * [[Importing ScummVM games]] 
 * [[Importing Windows Store or Xbox App games]]
@@ -35,7 +34,6 @@ Troubleshooting
 * [[Known Issues]] page offers list of commonly known issues and solutions.
 * [[Account sync troubleshooting]]
 * [[Frequently Asked Questions]]
-* [[Sending feedback]]
 
 Development
 --------
