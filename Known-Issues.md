@@ -2,10 +2,6 @@
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
 
-### Epic Store login fails with "pollingId is invalid" error
-
-See [this page](https://github.com/JosefNemec/Playnite/wiki/Account-sync-troubleshooting#epic-store).
-
 ### Some metadata are not being downloaded
 
 For some 3rd party stores we are unable to download all metadata, see [this table](https://github.com/JosefNemec/Playnite/wiki/Feature-table-based-on-library-provider) for more details.
@@ -16,21 +12,9 @@ For manually games we fetch metadata from [IGDB database](https://www.igdb.com) 
 
 Using "Clear web cache" from "Advanced" settings menu will usually fixes the problem.
 
-### Some GOG games appearing as uninstalled in Playnite
-
-Playnite can report some games as "uninstalled" even if they appear installed in Galaxy client. This usually occurs if you import games to Galaxy via "Scan and import folders" feature instead of installing games fresh. Repairing game installations in Galaxy fixes the issue.
-
 ### Crash on startup - Windows 7 only
 
 Crash is caused by issue in Microsoft's update for .Net 4.7. Follow instructions from Microsoft's [support page](https://support.microsoft.com/en-us/help/4074906/typeinitializationexception-or-fileformatexception-error-in-wpf-apps-t) or manually install update KB4074906.
-
-### Portable version crashes at startup / during first time setup
-
-Occurs if Microsoft Visual C++ 2013 Redistributable is not installed. [Download](https://www.microsoft.com/en-us/download/details.aspx?id=40784) and install **x86** version to fix the issue.
-
-### Portable version crashes on "access denied" errors or fails to load various dll files
-
-If you used Windows Explorer to unpack portable zip file then Windows might be blocking access to some files. To fix this: Before you unpack the zip file, open its Properties (via right-click menu) and use `Unblock` button.
 
 ### Crash on startup
 
@@ -56,21 +40,6 @@ If you have blur applied to background image (can be changed in the settings), t
 ### UI stuttering when scrolling large lists
 
 Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue [#454](https://github.com/JosefNemec/Playnite/issues/454)
-
-### Battle.Net games not reported as installed
-
-Some Battle.Net games can be wrongly reported as uninstalled even if Battle.Net client shows them as installed. To fix this open game in Battle.Net client, click `Options` and choose `Scan and Repair`.
-
-### Battle.Net authentication being lost after some time
-This is a battle.net issue, it likes to invalidate logging session way too soon. For now we recommend syncing your library and then switching settings back to syncing only installed games. You will need to switch to full sync only when you add new game to your account. More information available [here](https://github.com/JosefNemec/Playnite/issues/234).
-
-### GOG games not reported as installed
-
-Can occur if the game is installed by importing directory into Galaxy client. To fix this open game in Galaxy -> More -> Manage Installation -> Verify / Repair. Then refresh library in Playnite from main menu.
-
-### Steam games on different drivers not getting imported
-
-Repair Steam installation by redownloading Steam setup. Steam installations get sometimes damaged in a weird way that prevents Playnite from detecting all games as installed.
 
 ### AuthorizationManager check failed error at startup
 
