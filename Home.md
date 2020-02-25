@@ -16,8 +16,8 @@ User Manual
 * [[Adding new emulator]]
 
 ### 3rd party libraries
-* [Steam troubleshooting](https://github.com/JosefNemec/Playnite/wiki/How-to-get-Steam-account-name)
-* [GOG troubleshooting](https://github.com/JosefNemec/Playnite/wiki/How-to-get-GOG-account-name)
+* [[Steam troubleshooting]]
+* [[GOG troubleshooting]]
 * [Battle.net troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Battlenet-troubleshooting)
 * [Uplay troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Uplay-troubleshooting)
 * [Epic Game Store troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Epic-Game-Store-troubleshooting)
