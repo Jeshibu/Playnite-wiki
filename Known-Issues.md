@@ -1,9 +1,6 @@
-### 3rd party libraries
-* [Steam troubleshooting](https://github.com/JosefNemec/Playnite/wiki/How-to-get-Steam-account-name)
-* [GOG troubleshooting](https://github.com/JosefNemec/Playnite/wiki/How-to-get-GOG-account-name)
-* [Battle.net troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Battlenet-troubleshooting)
-* [Uplay troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Uplay-troubleshooting)
-* [Epic Game Store troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Epic-Game-Store-troubleshooting)
+### Issues with 3rd party libraries
+
+See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
 
 ### Epic Store login fails with "pollingId is invalid" error
 
