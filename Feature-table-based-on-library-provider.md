@@ -13,6 +13,8 @@
 | itch.io | • | • |  | • | 
 | Epic | • | • |  | • | 
 | Bethesda |  |  |  | • | 
+| Xbox | • |  |  | • | 
+| Humble | • |  |  | • | 
 
 * Import of installed games is always supported
 
@@ -27,6 +29,9 @@
 | itch.io |  | • | • | • | 
 | Epic | •[1] | • | • | | 
 | Uplay| •[2] | •[2] | | | 
+| Xbox | •[1] | | | | 
+| Humble | •[3] |  | | | 
 
 * [1] Only if game is installed
 * [2] Only if import of uninstalled games is enabled
+* [3] Trove games won't have icon assigned
