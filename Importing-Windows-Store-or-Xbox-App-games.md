@@ -1,4 +1,4 @@
-Windows Store games and other UWP application are not being imported the same way as Steam games for example. You have to manually specify what games (apps) should be imported.
+**! Since Playinte 7 it's now recommended to use Xbox library plugin for easier import of MS Store and Xbox Game Pass games.**
 
 To import Windows Store application:
 - Select `Add Game` from main menu
