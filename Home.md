@@ -22,6 +22,7 @@ User Manual
 * [[Bethesda troubleshooting]]
 * [[Humble Store troubleshooting]]
 * [[Xbox Library troubleshooting]]
+* [[Twitch / Amazon Games troubleshooting]]
 
 ### Input
 * [[Keyboard shortcuts]]
