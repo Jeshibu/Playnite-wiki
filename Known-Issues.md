@@ -48,3 +48,7 @@ If you are using portable version of Playnite then Windows may be blocking loadi
 ### Extensions menu is grayed out / PowerShell extensions not loading
 
 Occurs on Windows 7 if PowerShell 5 is not installed. [Downloads and install](https://www.microsoft.com/en-us/download/details.aspx?id=54616) PowerShell 5 to fix the issue.
+
+### Settings being reset or general data loss
+
+Users reported these issue when installing Playnite via Chocolatey. Chocolatey is not officially supported method of installation/update at the moment and if you are experiencing these issue, use [official methods](https://playnite.link/download.html) of installation instead.
