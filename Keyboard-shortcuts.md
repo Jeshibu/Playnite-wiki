@@ -9,7 +9,9 @@
 
 `CTRL-F` - Focuses main search box, `ESC` or `Enter` then escapes from it
 
-`CTRL-G` - Toggles filter panel
+`CTRL-G` - Toggles Filter panel
+
+`CTRL-E` - Toggles Explorer panel
 
 `Insert` - Adds new custom game
 
