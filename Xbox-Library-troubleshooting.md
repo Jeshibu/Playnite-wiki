@@ -2,6 +2,10 @@
 
 The game has to be started at least once to be properly picked by Playnite as installed. This will be most likely fixed in 7.1 update.
 
+### Side loaded UWP apps are not detected
+
+Playnite doesn't support side loaded games/apps. Only games/apps installed using official channels are supported.
+
 ### Supported systems
 
 Import of installed games is only supported on Windows 10. Windows 8 version of Microsoft Store is not supported.
