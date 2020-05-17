@@ -1,3 +1,7 @@
+### What does Playnite name mean?
+
+Playnite is combination of `Play` and `Unite`.
+
 ### How do I backup Playnite library and move it to another PC?
 
 If using portable version, just move the whole installation folder.
