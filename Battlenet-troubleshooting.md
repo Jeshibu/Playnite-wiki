@@ -1,5 +1,5 @@
 ### Authentication being lost after some time
-This is a battle.net issue, it likes to invalidate logging session way too soon. For now I recommend syncing your library and then switching settings back to syncing only installed games. You will need to switch to full sync only when you add new game to your account. More information available [here](https://github.com/JosefNemec/Playnite/issues/234).
+This is a battle.net issue, it likes to invalidate logging session way too soon. For now I recommend syncing your library and then switching settings back to syncing only installed games. You will need to switch to full sync only when you add new game to your account. More information available [here](https://github.com/JosefNemec/Playnite/issues/1057).
 
 ### Games not reported as installed
 
