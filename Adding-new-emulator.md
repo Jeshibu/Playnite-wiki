@@ -1,3 +1,7 @@
+### Automatic Import
+
+It's highly recommended to use automatic emulator import feature, since that will configure all fields properly for you.
+
 This page describes available settings for emulators and emulator profiles. Every emulator has to have at least on emulator profile.
 
 ### Emulator profiles
