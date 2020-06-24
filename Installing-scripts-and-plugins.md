@@ -1,3 +1,9 @@
+# Packaged extensions
+
+Drag and drop `.pext` file into Playnite's window while running in Desktop mode.
+
+# Other extensions
+
 Script or plugin extensions are installed into Playnite by placing them into correct directory.
 
 ### Portable version
