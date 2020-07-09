@@ -2,6 +2,10 @@
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
 
+### Games disappearing, resetting properties etc.
+
+Happens when syncing Playnite's library files via OneDrive, Google Drive or similar solutions. This is an issue in those cloud apps corrupting or de-syncing Planyite's files. The only solution right now is to make sure that the file sync only happens when Playnite is not running and also that there are never two instances of Playnite running at the same time and using the same cloud files.
+
 ### Some metadata are not being downloaded
 
 For some 3rd party stores we are unable to download all metadata, see [this table](https://github.com/JosefNemec/Playnite/wiki/Feature-table-based-on-library-provider) for more details.
