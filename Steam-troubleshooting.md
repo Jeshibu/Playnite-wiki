@@ -1,4 +1,4 @@
-### Installed games on different drives are not detected
+### Installed games are not detected
 
 Can happen if Steam installation is damaged in some way. Reinstalling Steam fixes the issue.
 
