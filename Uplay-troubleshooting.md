@@ -1,3 +1,7 @@
+### Uplay client not being detected
+
+Reinstall Uplay client to fix the issue.
+
 ### Uninstalled games not importing properly
 Uplay client has to be started at least once (and user must be logged in) for Playnite to import all games properly. Uplay doesn't have to be running for import to work, only initial authentication in Uplay is important.
 
