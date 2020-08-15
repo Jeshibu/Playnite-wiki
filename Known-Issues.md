@@ -2,6 +2,10 @@
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
 
+### Can't drag and drop .pext and .pthm files into Playnite
+
+If you are running Playnite with elevated user rights (as Administrator), then you can't drop files into it from non-elevated source. This is a Windows security feature. The solution is to not run Playnite as admin or run the drag as admin.
+
 ### Games disappearing, resetting properties etc.
 
 Happens when syncing Playnite's library files via OneDrive, Google Drive or similar solutions. This is an issue in those cloud apps corrupting or de-syncing Planyite's files. The only solution right now is to make sure that the file sync only happens when Playnite is not running and also that there are never two instances of Playnite running at the same time and using the same cloud files.
