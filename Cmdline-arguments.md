@@ -1,4 +1,4 @@
-Playnite accepts following arguments form command line:
+Playnite accepts following arguments from command line:
 
 | Argument | Description | 
 | -- | -- |
