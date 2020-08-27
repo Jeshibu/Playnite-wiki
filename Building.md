@@ -2,7 +2,7 @@
 
 Visual Studio 2017 is required (2019 probably works as well, but consider it not supported officially).
 
-.NET SDK 4.6.2 is required to build the application.
+PowerShell 7 and .NET SDK 4.6.2 is required to build the application.
 
 For building inside VS make sure you are switched to `x86` solution configuration.
 
