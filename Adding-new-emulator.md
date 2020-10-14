@@ -40,17 +40,4 @@ Supported File Types: `zip, gz, jma, sfc`
 
 Various variables can be used to create dynamic strings. For example when settings emulator arguments `{ImagePath}` variable can be used to pass game's ROM/Image to the arguments.
 
-|Variable|Description|
-| ------------- | ------------- |
-|{InstallDir}|Game installation directory|
-|{InstallDirName}|Name of installation folder
-|{ImagePath}|Game ISO/ROM path if set|
-|{ImageName}|Game ISO/ROM file name|
-|{ImageNameNoExt}|Game ISO/ROM file name without extension|
-|{PlayniteDir}|Playnite's installation directory|
-|{Name}|Game name |
-|{Platform}|Game's platform |
-|{GameId}|Game's ID |
-|{DatabaseId}|Game's database ID |
-|{PluginId}|Game's library plugin ID |
-|{Version}|Game version|
+Full list of variables is available [here](https://playnite.link/docs/manual/gameVariables.html).
