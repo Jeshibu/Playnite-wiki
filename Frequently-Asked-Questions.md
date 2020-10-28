@@ -2,6 +2,10 @@
 
 Playnite is combination of `Play` and `Unite`.
 
+### What is Safe Mode?
+
+Safe Mode starts Playnite with all 3rd party extensions disabled and using only default theme.
+
 ### How do I backup Playnite library and move it to another PC?
 
 If using portable version, just move the whole installation folder.
