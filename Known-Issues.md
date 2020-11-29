@@ -41,6 +41,8 @@ Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix
 * Click "Add" to add a program, and select Playnite
 * Change the "Monitor Technology" from "G-SYNC"  "Fixed Refresh"
 
+The same issue can be seen on AMD cards with FreeSync enabled. The issue is [in UI toolkit](https://github.com/dotnet/wpf/issues/2294) we use and so far was not addressed by the developers.
+
 ### UI suttering and mouse lag #2
 
 If you have blur applied to background image (can be changed in the settings), there's known issue with some integrated Intel GPUs that can't handle it properly. You will either need to lower the blur intensity and quality or disable it altogether.
