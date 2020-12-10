@@ -1,6 +1,6 @@
-Controller is currently only supported in Fullscreen mode and only `XInput` compatible controllers are support at the moment. General `DirectInput` support is planned [in future](https://github.com/JosefNemec/Playnite/issues/684).
+Controllers are currently only supported in Fullscreen mode and only `XInput` compatible will work at the moment. General `DirectInput` support is planned [to be added in future](https://github.com/JosefNemec/Playnite/issues/684).
 
-If you want to use controller that doesn't support XInput by default then you need to use some kind of `DirectInput` to `XInput` wrapper.
+If you want to use a controller that doesn't support XInput API, then you need to use some kind of `DirectInput` to `XInput` wrapper.
 
 Some wrapper available (not all of them):
 - [x360ce](https://www.x360ce.com/)
