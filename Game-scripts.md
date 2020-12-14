@@ -25,3 +25,11 @@ Stop-Process -Name "someapp"
 ```
 Start-Process "c:\somepath\someapp.exe" "-some arguments" -WindowStyle Minimized
 ```
+
+# Troubleshooting
+
+You won't be able to use `Stop-Process` on processes that are started with elevated rights. You need to use WMI to shutdown a process in that case:
+
+```
+(Get-WmiObject -Class Win32_Process -Filter "name = 'someapp.exe'").Terminate()
+```
