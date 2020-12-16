@@ -1,6 +1,6 @@
 ### What does Playnite name mean?
 
-Playnite is combination of `Play` and `Unite`.
+Playnite is a combination of `Play` and `Unite`.
 
 ### What is Safe Mode?
 
