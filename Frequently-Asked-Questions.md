@@ -49,20 +49,4 @@ Use "funnel" filter button next to the search field to open filter panel, select
 
 ### How do I start additional application(s) before game starts and kill it after game exits?
 
-* Edit game and go to `Scripts` tab
-* Change runtime to `PowerShell`
-* Set first script to start your application using [Start-Process](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-6) cmdlet
-```
-Start-Process "c:\somepath\someapp.exe" "-some arguments"
-```
-
-* Set second script to kill the application using [Stop-Process](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6) cmdlet
-
-```
-Stop-Process -Name "someapp"
-```
-* If the application requires elevated rights to start then you need to start Playnite as admin too, otherwise the `Stop-Process` will fail due to insufficient privileges.
-* If you want to start application minimized and application doesn't have native support for it then add `-WindowStyle` argument.
-```
-Start-Process "c:\somepath\someapp.exe" "-some arguments" -WindowStyle Minimized
-```
+See [this page](https://github.com/JosefNemec/Playnite/wiki/Game-scripts).
