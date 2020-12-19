@@ -1,6 +1,6 @@
-### Not all installed games are imported
+### Not all games are imported
 
-The game has to be started at least once to be properly picked by Playnite as installed. This will be most likely fixed in 7.1 update.
+The game has to be started at least once to be properly picked by Playnite.
 
 ### Side loaded UWP apps are not detected
 
