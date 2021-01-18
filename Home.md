@@ -4,6 +4,7 @@ User Manual
 * [[Feature table based on library provider]]
 * [[Cmdline arguments]]
 * [[Game scripts]]
+* [[Game actions]]
 
 ### Adding Games
 * [[Adding games manually]]
