@@ -2,7 +2,7 @@ Controllers are currently only supported in Fullscreen mode and only `XInput` co
 
 If you want to use a controller that doesn't support XInput API, then you need to use some kind of `DirectInput` to `XInput` wrapper.
 
-Some wrapper available (not all of them):
+Some wrappers available (not all of them):
 - [x360ce](https://www.x360ce.com/)
 - [ds4windows](http://ds4windows.com/)
 - [XOutput](https://github.com/csutorasa/XOutput)
