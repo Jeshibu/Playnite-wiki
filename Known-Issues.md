@@ -6,6 +6,10 @@ See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-li
 
 If you are running Playnite with elevated user rights (as Administrator), then you can't drop files into it from non-elevated source. This is a Windows security feature. The solution is to not run Playnite as admin or run the drag as admin.
 
+### Integration logins don't work, show only white/black screen
+
+This is a known issue with Intel Iris Xe GPUs. The only solution right now is to disable hardware acceleration (in advanced settings) and wait for Intel to fix their drivers. [[1]](https://community.intel.com/t5/Graphics/Iris-Xe-and-AWS-Workspaces/td-p/1244351) [[2]](https://github.com/dotnet/wpf/issues/3817)
+
 ### Games disappearing, resetting properties etc.
 
 Happens when syncing Playnite's library files via OneDrive, Google Drive or similar solutions. This is an issue in those cloud apps corrupting or de-syncing Planyite's files. The only solution right now is to make sure that the file sync only happens when Playnite is not running and also that there are never two instances of Playnite running at the same time and using the same cloud files.
