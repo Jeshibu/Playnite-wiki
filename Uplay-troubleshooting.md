@@ -12,4 +12,4 @@ Uplay has to be started at least once after new game is added to your account fo
 
 ### Games not imported
 
-Games that were bought from a different store (like Steam), but require Ubisoft Connect to launch, won't be imported. It's done that way because launching those from Ubisfot Connect still requires that original launcher (Steam for example) to be installed and it would create unnecessary duplocates. Only Ubisoft games bought on Ubisoft store or those that don't require 3rd party launcher to start, will be imported.
+Games that were bought from a different store (like Steam), but require Ubisoft Connect to launch, won't be imported. It's done that way because launching those from Ubisfot Connect still requires that original launcher (Steam for example) to be installed and it would create unnecessary duplicates. Only Ubisoft games bought on Ubisoft store or those that don't require 3rd party launcher to start, will be imported.
