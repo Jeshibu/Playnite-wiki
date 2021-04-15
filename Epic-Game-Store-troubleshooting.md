@@ -1,3 +1,7 @@
+### Login leads to profile page instead of signing-in
+
+Update to the latest 8.12+ version of Playnite. This version is only available as an update (you can manually check for an update from Help menu).
+
 ### "pollingId is invalid" error when logging in
 
 Currently a [known issue](https://github.com/JosefNemec/Playnite/issues/1416) when using 3rd party services (Google for example) to sing in into Epic account. The only solution right now is to [setup a password](https://github.com/JosefNemec/Playnite/issues/1416#issuecomment-534890200) on your Epic account.
