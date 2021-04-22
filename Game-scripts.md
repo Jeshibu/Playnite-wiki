@@ -28,6 +28,12 @@ Start-Process "c:\somepath\someapp.exe" "-some arguments" -WindowStyle Minimized
 
 # Troubleshooting
 
+### Application doesn't start
+
+Some applications won't work properly (or even start) when started using working directory outside of their application director. In that case you need to use `-WorkingDirectory` parameter and specify working directory manually.
+
+### Can't shutdown process
+
 You won't be able to use `Stop-Process` on processes that are started with elevated rights. In that case, you need to use WMI to shutdown a process:
 
 ```
