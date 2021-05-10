@@ -51,6 +51,10 @@ The same issue can be seen on AMD cards with FreeSync enabled. The issue is [in 
 
 If you have blur applied to background image (can be changed in the settings), there's known issue with some integrated Intel GPUs that can't handle it properly. You will either need to lower the blur intensity and quality or disable it altogether.
 
+### UI suttering and mouse lag #3
+
+Intel GPUs have been know to have bad compatibility with some WPF features we use (WPF is UI library Playnite uses). If you have multiple GPUs, make sure that Playnite [is not running](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/) on integrated Intel one. Otherwise you may try disabling effect like background blur and transition animations to increase performance.
+
 ### UI stuttering when scrolling large lists
 
 Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue [#454](https://github.com/JosefNemec/Playnite/issues/454)
