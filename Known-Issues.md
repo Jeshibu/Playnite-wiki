@@ -1,3 +1,7 @@
+### General performance issues
+
+Custom themes and extensions can greatly affect Playnite's performance. If you start experiencing issues with performance, try switching to default and disable 3rd party extensions to see if it fixes the issue. You can quickly test it by starting Playnite in "Safe mode" from Help menu.
+
 ### Issues with 3rd party libraries
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
@@ -36,7 +40,7 @@ Can be cause by some versions of RivaTunner (or derived apps like MSI Afterburne
 
 Usually cased either by no internet connection or firewall blocking connection. Make sure that `PlayniteUI.exe` and `CefSharp.BrowserSubprocess.exe` processes are not blocked by firewall.
 
-### UI suttering and mouse lag
+### UI stuttering and mouse lag
 
 Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue either disable GPU acceleration in settings menu (not recommended) or create Playnite profile in Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
 
@@ -47,11 +51,11 @@ Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix
 
 The same issue can be seen on AMD cards with FreeSync enabled. The issue is [in UI toolkit](https://github.com/dotnet/wpf/issues/2294) we use and so far was not addressed by the developers.
 
-### UI suttering and mouse lag #2
+### UI stuttering and mouse lag #2
 
 If you have blur applied to background image (can be changed in the settings), there's known issue with some integrated Intel GPUs that can't handle it properly. You will either need to lower the blur intensity and quality or disable it altogether.
 
-### UI suttering and mouse lag #3
+### UI stuttering and mouse lag #3
 
 Intel GPUs have been know to have bad compatibility with some WPF features we use (WPF is UI library Playnite uses). If you have multiple GPUs, make sure that Playnite [is not running](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/) on integrated Intel one. Otherwise you may try disabling effect like background blur and transition animations to increase performance.
 
