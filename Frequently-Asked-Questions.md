@@ -12,6 +12,10 @@ If using portable version, just move the whole installation folder.
 
 If using installed version, then you need to move `%appdata%\Playnite\` folder, which contains all user information. Make sure to completely replace the folder on new drive/PC if it already exists from other installation. Just copying over existing user data will cause issues!
 
+### Does Playnite support X controller?
+
+[[Gamepad-Controller-support]]
+
 ### Will there be Linux or macOS version?
 
 Not in near future, mainly for technical reasons. More information [here](https://github.com/JosefNemec/Playnite/issues/59).
