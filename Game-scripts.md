@@ -1,3 +1,5 @@
+# IronPython and batch support is being removed with upcoming Playnite 9 release!
+
 # Info
 
 All game scripts (including global ones) are executed synchronously and Playnite always waits for a script to completely finish. This means that including code that has blocking execution, for example waiting for process to finish, will lock up Playnite completely until script finishes with execution.
