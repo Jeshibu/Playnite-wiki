@@ -6,4 +6,4 @@ Humble plugin currently can't import installed DRM free games. You need to downl
 
 ### Download of DRM free games
 
-Support for download and install of DRM free games will be most probably available in Playnite 8.
+Support for download and install of DRM free games is currently not supported.
