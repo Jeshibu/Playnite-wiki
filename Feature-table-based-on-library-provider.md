@@ -7,7 +7,7 @@
 | Steam | • | • | • | • | 
 | GOG | • | • |  | • | 
 | Battle.net | • | • |  | • | 
-| Origin | • | • |  | • | 
+| Origin | • | • | • | • | 
 | Twitch / Amazon |  • |  |  | • | 
 | Uplay | • | • |  | • | 
 | itch.io | • | • |  | • | 
