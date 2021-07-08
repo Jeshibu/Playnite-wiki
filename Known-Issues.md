@@ -18,7 +18,7 @@ If you are running Playnite with elevated user rights (as Administrator), then y
 
 ### Integration logins don't work, show only white/black screen
 
-This is a known issue with Intel Iris Xe GPUs. The only solution is to update Intel drivers to newer version. More info [here](https://github.com/dotnet/wpf/issues/3817#issuecomment-857667684).
+This is a known issue with Intel Iris Xe GPUs. The solution is to update Intel drivers to newer version. More info [here](https://github.com/dotnet/wpf/issues/3817#issuecomment-857667684). Alternative solution is to disable hardware acceleration in Playnite (Advanced settings section).
 
 ### Games disappearing, resetting properties etc.
 
