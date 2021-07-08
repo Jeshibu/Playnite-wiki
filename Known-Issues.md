@@ -6,6 +6,12 @@ Custom themes and extensions can greatly affect Playnite's performance. If you s
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
 
+### Play time won't sync
+
+Play time sync is currently supported only for [some libraries](https://github.com/JosefNemec/Playnite/wiki/Feature-table-based-on-library-provider). Playnite also syncs time only for games that have no time recorded yet (when it's set to 0), otherwise it uses its own internal system to track it. If you want to always force sync from remote account, then enable `Prioritize play time for supported libraries` option in general settings.
+
+Also, play time sync only works when import of uninstalled games is enabled and account is connected properly.
+
 ### Can't drag and drop .pext and .pthm files into Playnite
 
 If you are running Playnite with elevated user rights (as Administrator), then you can't drop files into it from non-elevated source. This is a Windows security feature. The solution is to not run Playnite as admin or run the source of drag operation as admin.
