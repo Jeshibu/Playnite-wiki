@@ -2,6 +2,16 @@
 
 Custom themes and extensions can greatly affect Playnite's performance. If you start experiencing issues with performance, try switching to default and disable 3rd party extensions to see if it fixes the issue. You can quickly test it by starting Playnite in "Safe mode" from Help menu.
 
+### Graphical glitches with hardware acceleration enabled
+
+Can be caused by several things:
+- Bad graphics drivers. Try updating/reinstalling GPU drivers.
+- Some 3rd party app corrupting rendering. Usually caused by apps that inject overlays. The solution is to add Playnite processes to their exclusion list (if possible) or uninstalled problematic app.
+
+Apps known to cause issues:
+- `RivaTuner` and its derivatives like MSI Afterburner, EVGA Precision etc.
+- `Nahimic Service`, generally causes issues to a lot of apps and games
+
 ### Issues with 3rd party libraries
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
