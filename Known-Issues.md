@@ -12,6 +12,10 @@ Apps known to cause issues:
 - `RivaTuner` and its derivatives like MSI Afterburner, EVGA Precision etc.
 - `Nahimic Service`, generally causes issues to a lot of apps and games
 
+### Web view fails to initialize on Windows 7
+
+Install this to fix the issue: https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
 ### Issues with 3rd party libraries
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
