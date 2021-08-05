@@ -10,7 +10,7 @@ Can be caused by several things:
 
 Apps known to cause issues:
 - `RivaTuner` and its derivatives like MSI Afterburner, EVGA Precision etc.
-- `Nahimic Service`, generally causes issues to a lot of apps and games
+- `Nahimic Service`, generally causes issues to a lot of apps and games including Playnite.
 
 ### Web view fails to initialize on Windows 7
 
