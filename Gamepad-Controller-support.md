@@ -4,5 +4,5 @@ If you want to use a controller that doesn't support XInput API, then you need t
 
 Some wrappers available (not all of them):
 - [x360ce](https://www.x360ce.com/)
-- [ds4windows](http://ds4windows.com/)
+- [ds4windows](https://ryochan7.github.io/ds4windows-site/)
 - [XOutput](https://github.com/csutorasa/XOutput)
