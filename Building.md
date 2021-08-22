@@ -1,6 +1,6 @@
 ## Building
 
-Visual Studio 2017 is required (2019 probably works as well, but consider it not supported officially).
+Visual Studio 2017/2019 is required.
 
 PowerShell 7 and .NET SDK 4.6.2 is required to build the application.
 
