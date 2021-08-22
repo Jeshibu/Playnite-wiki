@@ -1,6 +1,6 @@
 ## Building
 
-Visual Studio 2017/2019 is required and .NET SDK 4.6.2 is required to build the application.
+Visual Studio 2017/2019 and .NET SDK 4.6.2 is required to build the application.
 
 For building inside VS make sure you are switched to `x86` solution configuration.
 
