@@ -55,6 +55,9 @@ Change log
 
 This list is not fully exhaustive, there are many more smaller fixes and improvements in this release.
 
+Breaking:
+* Removed IronPython and Batch game script support
+
 New:
 * Completely reworked emulation support
 * Add-on browser
@@ -63,6 +66,7 @@ New:
 * Plaform, AgeRating, Region and Series fields can hold multiple values
 * Completion status is now fully customizable
 * Many improvements and new features in SDK
+* Improvements to startup speed (library load times)
 * Option to switch to Fullscreen from tray menu
 * Option to install add-ons via Playnite URI
 * Configurable buttons on top panel
@@ -97,6 +101,7 @@ New:
 * Game scripts now share one runtime instance allowing them to share data between various events
 
 Fixed:
+* Playnite's library data are now stored in less files and they are locked while Playnite is running. This should fix data corruption issues when syncing Playnit's files via could storage solutions.
 * Mouse scrolling doesn't work properly in FS mode
 * Sorting name is ignored when grouping by name
 * Prevent updating game library entries during library update when no data has changed
