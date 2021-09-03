@@ -45,6 +45,8 @@ For theme/extension developers
 
 See [SDK changelog](https://playnite.link/docs/devel/changelog.html) for list of new and breaking changes. Also read [this page](https://playnite.link/docs/devel/tutorials/playnite9migration.html) for more information about add-on upgrades to new SDK version.
 
+Playnite 9's SDK nuget is only available as a preview release, if you don't see an update to Playnite.SDK package, make sure you have download of preview releases enabled in your IDE.
+
 Download
 ---------------------
 
