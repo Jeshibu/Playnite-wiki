@@ -1,7 +1,7 @@
 !!!IMPORTANT!!!
 ---------------------
 
-This is a beta test release aimed to to test Playnite 9. It should NOT be used as a "daily driver" installation since it contains a lot of breaking changes that could potentially contain bugs resulting in data loss! It's also currently not guaranteed that this beta release will be upgradeable to stable one when it's available, although it's likely.
+This is a beta test release aimed to to test Playnite 9. It should NOT be used as a "daily driver" since it contains a lot of breaking changes that could potentially contain bugs resulting in data loss! It's also currently not guaranteed that this beta release will be upgradeable to stable one when it's available, although it's likely.
 
 **For that reason, use this beta as a separate installation or install it over portable **copy** of your main Playnite instance.**
 
