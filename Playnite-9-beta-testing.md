@@ -16,7 +16,7 @@ Installation
 
 ### Clean installations
 
-Just unpack to a folder and run.
+Just unpack to a folder and start desktop executable.
 
 ### Using existing data
 
