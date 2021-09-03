@@ -48,7 +48,7 @@ See [SDK changelog](https://playnite.link/docs/devel/changelog.html) for list of
 Download
 ---------------------
 
-[link](https:/playnite.link/download/Playnite9Beta.zip)
+[download link](https:/playnite.link/download/Playnite9Beta.zip)
 
 Change log
 ---------------------
