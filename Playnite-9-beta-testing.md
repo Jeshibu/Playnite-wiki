@@ -50,7 +50,39 @@ Playnite 9's SDK nuget is only available as a preview release, if you don't see 
 Download
 ---------------------
 
-[download link](https://playnite.link/download/Playnite9Beta.zip)
+[download link](https://playnite.link/download/Playnite9Beta2.zip)
+
+
+Beta 2
+---------------------
+
+### Installation and download
+
+Use download link from above, it now points to Beta 2 package.
+
+If you have first beta installed, just overwrite files from beta 2 package. If you don't have any beta installed, following original installation instructions.
+
+### Breaking changes
+
+There's a small breaking change in `GameMetadata` class (List based properties are now HashSets). If you are an extensions developer, update to new SDK nuget (preview 4) and make necessary changes to your plugin.
+
+### Beta 2 changelog
+
+New:
+* Check for updates menu item checks for add-on updates as well
+
+Fixed:
+* Theme style inheritance doesn't work properly
+* Minor theme improvements
+* Some views don't work in Blend
+* Scanning with custom emulator profile fails
+* Removing a game from the game options menu in Fullscreen mode leaves you stuck at an empty game details page
+* PowerShell script execution fails when running script from network resource
+* Platform media is not migrated from Playnite 8
+* Fullscreen 'Hidden' and 'Favorite' checkbox filters display wrong games
+* Addon browser still lists initial version and release date etc of addon after updating it
+* Pressing F11 on Fullscreen mode does not return to desktop mode
+* Several crashes
 
 Change log
 ---------------------
