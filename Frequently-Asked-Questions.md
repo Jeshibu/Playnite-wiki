@@ -22,7 +22,7 @@ Not in near future, mainly for technical reasons. More information [here](https:
 
 ### Where can I find library folder with all games?
 
-Go to `Settings` menu and check `Database Location` on `General` tab.
+Go to `Settings` menu and check `Database Location` on `Advanced` tab.
 
 By default for installed versions the library is in `%appdata%\Playnite\library` folder and for portable it's just `library` folder inside the application folder.
 
