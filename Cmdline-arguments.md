@@ -1,1 +1,1 @@
-## Moved to [here](https://playnite.link/docs/manual/cmdlineArguments.html).
+Moved here: https://playnite.link/docs/master/manual/cmdlineArguments.html
