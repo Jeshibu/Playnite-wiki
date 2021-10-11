@@ -1,3 +1,7 @@
+## Preamble
+
+If you see any path on this page that starts with `%appdata%` or `%localappdata%`, then copy that path exactly as written and paste it into your file explorer to navigate to a correct directory. Strings starting and ending with `%` are environment variables that will be properly converted when you tell your file explorer to navigate there.
+
 ### What does Playnite name mean?
 
 Playnite is a combination of `Play` and `Unite`.
