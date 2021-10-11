@@ -1,0 +1,1 @@
+Moved here: https://playnite.link/docs/master/manual/gameActions.html
