@@ -14,17 +14,6 @@ User Manual
 ### Emulation
 * [[Adding new emulator]]
 
-### 3rd party libraries
-* [[Steam troubleshooting]]
-* [[GOG troubleshooting]]
-* [Battle.net troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Battlenet-troubleshooting)
-* [Uplay troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Uplay-troubleshooting)
-* [Epic Game Store troubleshooting](https://github.com/JosefNemec/Playnite/wiki/Epic-Game-Store-troubleshooting)
-* [[Bethesda troubleshooting]]
-* [[Humble Store troubleshooting]]
-* [[Xbox Library troubleshooting]]
-* [[Twitch and Amazon Games troubleshooting]]
-
 ### Input
 * [[Keyboard shortcuts]]
 * [[Gamepad/Controller support]]
