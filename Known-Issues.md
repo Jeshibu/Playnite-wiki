@@ -67,7 +67,7 @@ Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix
 * Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
 * Select the "Program Settings" tab
 * Click "Add" to add a program, and select Playnite
-* Change the "Monitor Technology" from "G-SYNC"  "Fixed Refresh"
+* Change the "Monitor Technology" from "G-SYNC" to "Fixed Refresh"
 
 The same issue can be seen on AMD cards with FreeSync enabled. The issue is [in UI toolkit](https://github.com/dotnet/wpf/issues/2294) we use and so far was not addressed by the developers.
 
