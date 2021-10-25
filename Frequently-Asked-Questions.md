@@ -12,6 +12,17 @@ Safe Mode starts Playnite with all 3rd party extensions disabled and using only 
 
 You can start safe mode via `Safe Mode.bat` from Playnite's installation directory or by using `--safestartup` argument when starting Playnite's executable.
 
+### I'm getting warning about elevated privileges
+
+Playnite will show warning if it detects itself running with elevated privileges. We show this warning because these privileges are inherited to all installed extensions and to everything you subsequently start from Playnite (all games and apps). Playnite itself doesn't require elevated privileges to function properly so it's an unnecessary security risk to run it that way.
+
+You may get this dialog in several cases, some examples include:
+
+- If Playnite is launched as admin, either manually or via compatibility flag.
+- Application that's starting Playnite is already running with elevated privileges.
+- You have UAC completely disabled in User Account Control Windows settings.
+- You installed Playnite using unsupported method that forces it to run elevated. For example people installing using Chocolatey reported this issue.
+
 ### How do I backup Playnite library and move it to another PC?
 
 If using portable version, just move the whole installation folder.
