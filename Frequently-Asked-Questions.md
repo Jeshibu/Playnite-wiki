@@ -14,7 +14,9 @@ You can start safe mode via `Safe Mode.bat` from Playnite's installation directo
 
 ### I'm getting warning about elevated privileges
 
-Playnite will show warning if it detects itself running with elevated privileges. We show this warning because these privileges are inherited to all installed extensions and to everything you subsequently start from Playnite (all games and apps). Playnite itself doesn't require elevated privileges to function properly so it's an unnecessary security risk to run it that way.
+Playnite will show warning if it detects itself running with elevated privileges. We show this warning because these privileges are inherited to all installed extensions and to everything you subsequently start from Playnite (all games and apps).
+
+Playnite itself **doesn't** require elevated privileges to function properly so it's an unnecessary security risk to run it that way.
 
 You may get this dialog in several cases, some examples include:
 
