@@ -1,7 +1,6 @@
 User Manual
 --------
 ### General
-* [[Feature table based on library provider]]
 * [[Cmdline arguments]]
 * [[Game scripts]]
 * [[Game actions]]
