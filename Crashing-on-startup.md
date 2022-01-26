@@ -1,4 +1,4 @@
-Startup crashes usually happens because of two reasons:
+Startup crashes or freezes usually happen because of these reasons:
 
 1) Bug in Playnite itself. This is indicated by Playnite showing crash dialog with an ability to send crash report. If this happens, send crash report and open new [bug report](https://github.com/JosefNemec/Playnite/issues).
 
