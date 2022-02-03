@@ -94,3 +94,7 @@ Occurs on Windows 7 and 8 if PowerShell 5 is not installed. [Downloads and insta
 ### Settings being reset or general data loss
 
 Users reported these issue when installing Playnite via Chocolatey. Chocolatey is not officially supported method of installation/update at the moment and if you are experiencing these issue, use [official methods](https://playnite.link/download.html) of installation instead.
+
+### webp images don't display properly
+
+Install this: https://www.microsoft.com/en-us/p/webp-image-extensions/9pg2dk419drg
