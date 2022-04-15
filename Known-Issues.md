@@ -2,6 +2,8 @@
 
 Custom themes and extensions can greatly affect Playnite's performance. If you start experiencing issues with performance, try switching to default theme and disable 3rd party extensions to see if it fixes the issue. You can quickly test it by starting Playnite in "Safe mode" from Help menu.
 
+Also make sure that hardware acceleration is not disabled in Advanced -> Performance settings.
+
 ### Graphical glitches with hardware acceleration enabled
 
 Can be caused by several things:
