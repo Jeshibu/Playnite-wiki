@@ -12,6 +12,29 @@ Apps known to cause issues:
 - `RivaTuner` and its derivatives like MSI Afterburner, EVGA Precision etc.
 - `Nahimic Service`, generally causes issues to a lot of apps and games [including Playnite](https://playnite.link/forum/thread-747.html).
 
+### UI stuttering and mouse lag
+
+Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue either disable GPU acceleration in settings menu (not recommended) or create Playnite profile in Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
+
+* Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
+* Select the "Program Settings" tab
+* Click "Add" to add a program, and select Playnite
+* Change the "Monitor Technology" from "G-SYNC" to "Fixed Refresh"
+
+The same issue can be seen on AMD cards with FreeSync enabled. The issue is [in UI toolkit](https://github.com/dotnet/wpf/issues/2294) we use and so far was not addressed by the developers.
+
+### UI stuttering and mouse lag #2
+
+If you have blur applied to background image (can be changed in the settings), there's known issue with some integrated Intel GPUs that can't handle it properly. You will either need to lower the blur intensity and quality or disable it altogether.
+
+### UI stuttering and mouse lag #3
+
+Intel GPUs have been know to have bad compatibility with some WPF features we use (WPF is UI library Playnite uses). If you have multiple GPUs, make sure that Playnite [is not running](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/) on integrated Intel one. Otherwise you may try disabling effect like background blur and transition animations to increase performance.
+
+### UI stuttering when scrolling large lists
+
+Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue [#454](https://github.com/JosefNemec/Playnite/issues/454)
+
 ### Web view fails to initialize on Windows 7
 
 Install this to fix the issue: https://www.microsoft.com/en-us/download/details.aspx?id=48145
@@ -59,29 +82,6 @@ Can be cause by some versions of RivaTunner (or derived apps like MSI Afterburne
 ### Unable to link accounts, login shows white page
 
 Usually cased either by no internet connection or firewall blocking connection. Make sure that `PlayniteUI.exe` and `CefSharp.BrowserSubprocess.exe` processes are not blocked by firewall.
-
-### UI stuttering and mouse lag
-
-Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue either disable GPU acceleration in settings menu (not recommended) or create Playnite profile in Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
-
-* Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
-* Select the "Program Settings" tab
-* Click "Add" to add a program, and select Playnite
-* Change the "Monitor Technology" from "G-SYNC" to "Fixed Refresh"
-
-The same issue can be seen on AMD cards with FreeSync enabled. The issue is [in UI toolkit](https://github.com/dotnet/wpf/issues/2294) we use and so far was not addressed by the developers.
-
-### UI stuttering and mouse lag #2
-
-If you have blur applied to background image (can be changed in the settings), there's known issue with some integrated Intel GPUs that can't handle it properly. You will either need to lower the blur intensity and quality or disable it altogether.
-
-### UI stuttering and mouse lag #3
-
-Intel GPUs have been know to have bad compatibility with some WPF features we use (WPF is UI library Playnite uses). If you have multiple GPUs, make sure that Playnite [is not running](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/) on integrated Intel one. Otherwise you may try disabling effect like background blur and transition animations to increase performance.
-
-### UI stuttering when scrolling large lists
-
-Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue [#454](https://github.com/JosefNemec/Playnite/issues/454)
 
 ### AuthorizationManager check failed error at startup
 
