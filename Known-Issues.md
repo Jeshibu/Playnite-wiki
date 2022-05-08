@@ -1,6 +1,6 @@
 ### General performance issues and crashes
 
-Custom themes and extensions can greatly affect Playnite's performance and stability. If you start experiencing issues, try switching to default theme and disable 3rd party extensions to see if it fixes the issue. You can quickly test it by starting Playnite in "Safe mode" from Help menu or by using `Safe Mode.bat` from installation folder.
+Custom themes and extensions can greatly affect Playnite's performance and stability. If you start experiencing issues, try switching to default theme and disable 3rd party extensions to see if it fixes the issue. You can quickly test it by starting Playnite in `Safe mode` from Help menu or by using `Safe Mode.bat` from installation folder.
 
 Also make sure that hardware acceleration is not disabled in Advanced -> Performance settings.
 
