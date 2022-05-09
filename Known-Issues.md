@@ -37,9 +37,13 @@ Intel GPUs have been know to have bad compatibility with some WPF features we us
 
 Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue [#454](https://github.com/JosefNemec/Playnite/issues/454)
 
-### Web view fails to initialize on Windows 7
+### Web view component fails to initialize
 
-Install this to fix the issue: https://www.microsoft.com/en-us/download/details.aspx?id=48145
+Usually happens when some program files are missing, damaged or blocked. You can try following to fix the issue:
+- Make sure your antivirus doesn't block files from Playnite's installation folder.
+- Check that all files are installed correctly, try re-installing Playnite.
+- Install [Visual Studio C++ 2019 redistributables](https://aka.ms/vs/17/release/vc_redist.x86.exe) if you are on Windows 7 or 8.
+- Choose a different installation location.
 
 ### Issues with 3rd party libraries
 
