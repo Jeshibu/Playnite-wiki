@@ -16,7 +16,7 @@ Apps known to cause issues:
 
 ### UI stuttering and mouse lag
 
-Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue either disable GPU acceleration in settings menu (not recommended) or create Playnite profile in Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
+Can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue create a profile for Playnite processes in Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
 
 * Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
 * Select the "Program Settings" tab
