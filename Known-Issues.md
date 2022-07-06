@@ -45,6 +45,10 @@ Usually happens when some program files are missing, damaged or blocked. You can
 - Install [Visual Studio C++ 2019 redistributables](https://aka.ms/vs/17/release/vc_redist.x86.exe) if you are on Windows 7 or 8.
 - Choose a different installation location.
 
+### Google Image search doesn't work
+
+Go to Settings -> Advanced and use "Clear web cache".
+
 ### Issues with 3rd party libraries
 
 See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-libraries) related to each library.
