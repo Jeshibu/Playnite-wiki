@@ -55,7 +55,7 @@ See [separate sections](https://github.com/JosefNemec/Playnite/wiki#3rd-party-li
 
 ### Play time won't sync
 
-Play time sync is currently supported only for [some libraries](https://github.com/JosefNemec/Playnite/wiki/Feature-table-based-on-library-provider). Playnite also syncs time only for games that have no time recorded yet (when it's set to 0), otherwise it uses its own internal system to track it. If you want to always force sync from remote account, then enable `Prioritize play time for supported libraries` option in general settings.
+Play time sync is currently supported only by [some library integration plugins](https://github.com/Jeshibu/PlayniteExtensionsFeatures). Playnite also syncs play time only for games that have no time recorded yet (when it's set to 0), otherwise it uses its own internal system to track it. If you want to always force sync from remote account, enable `Prioritize play time for supported libraries` option in general settings.
 
 Also, play time sync only works when import of uninstalled games is enabled and account is connected properly.
 
