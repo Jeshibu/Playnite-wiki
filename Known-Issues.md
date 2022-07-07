@@ -73,9 +73,14 @@ Happens when syncing Playnite's library files via OneDrive, Google Drive or simi
 
 ### Some metadata are not being downloaded
 
-For some 3rd party stores we are unable to download all metadata, see [this table](https://github.com/JosefNemec/Playnite/wiki/Feature-table-based-on-library-provider) for more details.
+Causes:
 
-For manually games we fetch metadata from [IGDB database](https://www.igdb.com) based on the game's name. The name matching is not 100% accurate so it may happen that metadata won't be downloaded at all for some games. If that's the case you can manually download metadata from game edit dialog. Also we don't download background images for custom games at all.
+- Metadata download cancelled after games have been imported. You can start new bulk download via Library -> Download metadata menu.
+- Metadata download is disabled in general settings -> "Download metadata after importing games".
+- Metadata download is configured in a way that doesn't download anything. Check in settings -> Metadata section.
+- Installed metadata sources don't provide any metadata. Integration plugins [provide](https://github.com/Jeshibu/PlayniteExtensionsFeatures#official-metadata-support) some metadata for games they import, plus Playnite by default uses [IGDB](https://playnite.link/addons.html#IGDBMetadata_Builtin) to fill in missing data, but it's still possible that some games won't be properly matched in any available metadata sources and will have missing information. In that case:
+  - You can edit info manually and use Google Image download to fill in missing media files.
+  - You can try installing [metadata plugins](https://playnite.link/addons.html#metadataSources) which can fetch game info from additional sources.
 
 ### Cannot authenticate with several accounts after Plynite was updated
 
