@@ -29,7 +29,7 @@ You may get this dialog in several cases, some examples include:
 
 If using portable version, just move the whole installation folder.
 
-If using installed version, then you need to move [%appdata%\Playnite\](#Preamble) folder, which contains all user information.
+If using installed version, then you need to move [%appdata%\Playnite](#Preamble) folder, which contains all user information.
 
 Make sure to completely replace the folder on new drive/PC if it already exists from other installation. Just copying over existing user data will cause issues!
 
