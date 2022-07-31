@@ -29,7 +29,7 @@ You may get this dialog in several cases, some examples include:
 
 If using portable version, just move the whole installation folder.
 
-If using installed version, then you need to move `%appdata%\Playnite\` folder, which contains all user information.
+If using installed version, then you need to move [%appdata%\Playnite\](#Preamble) folder, which contains all user information.
 
 Make sure to completely replace the folder on new drive/PC if it already exists from other installation. Just copying over existing user data will cause issues!
 
@@ -45,7 +45,7 @@ Not in near future, mainly for technical reasons. More information [here](https:
 
 Go to `Settings` menu and check `Database Location` on `Advanced` tab.
 
-By default for installed versions the library is in `%appdata%\Playnite\library` folder and for portable it's just `library` folder inside the application folder.
+By default for installed versions the library is in [%appdata%\Playnite\library](#Preamble) folder and for portable it's just `library` folder inside the application folder.
 
 **Warning: Never combine two different library folders from different Playnite instances. It will generate duplicates in your library. If you are moving library to another Playnite instance always completely replace the folder, never just copy one over another.**
 
@@ -59,7 +59,7 @@ Playnite supports auto update feature, you don't have to download and install up
 
 ### Where are Playnite settings located?
 
-Portable editions have settings stored in `config.json` directly in Playnite's folder. Installed versions store settings in `%AppData%\Playnite\config.json` file.
+Portable editions have settings stored in `config.json` directly in Playnite's folder. Installed versions store settings in [%AppData%\Playnite\config.json](#Preamble) file.
 
 ### How do I unhide game?
 
@@ -68,7 +68,7 @@ Use "funnel" filter button next to the search field to open filter panel, select
 ### How do I convert installed version to portable?
 
 * Shutdown Playnite
-* Copy content of `%appdata%\Playnite` into Playnite's application folder
+* Copy content of [%appdata%\Playnite](#Preamble) into Playnite's application folder
 * Delete `unins000.exe` and `unins000.dat` files
 * Edit `config.json` and change `DatabasePath` property value to `"library"`
 
