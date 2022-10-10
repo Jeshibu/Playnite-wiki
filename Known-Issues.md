@@ -4,6 +4,10 @@ Custom themes and extensions can greatly affect Playnite's performance and stabi
 
 Also make sure that hardware acceleration is not disabled in Advanced -> Performance settings.
 
+### Integrations require re-authentication when Playnite is moved/synced to a different system
+
+Some services invalidate authentication sessions when they are moved to a different system. This is standard security feature and something library integration can't circumvent. It is generally recommend to not sync files that might be tied to a specific user/system location, this primarily means `browsercache` and `ExtensionsData` folders, those are folders generally used by library integrations to store authentication sessions and should not be synced/moved from one system to another.
+
 ### Graphical glitches with hardware acceleration enabled
 
 Can be caused by several things:
