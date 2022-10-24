@@ -41,6 +41,13 @@ Intel GPUs have been know to have bad compatibility with some WPF features we us
 
 Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigate issue make sure that GPU acceleration is enabled and try to enabled `Asynchronous image loading` option. Some improvements are also planned in issue [#454](https://github.com/JosefNemec/Playnite/issues/454)
 
+### Connectivity issues
+
+Usually caused by firewall blocking Playnite processes (check firewall settings) or by DNS functionality being broken on ISP's side. For the latter switch to using CloudFlare's or Google's DNS:
+
+https://developers.cloudflare.com/1.1.1.1/setup/windows/
+https://developers.google.com/speed/public-dns/docs/using#windows
+
 ### Web view component fails to initialize
 
 Usually happens when some program files are missing, damaged or blocked. You can try following to fix the issue:
