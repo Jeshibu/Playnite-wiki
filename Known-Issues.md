@@ -45,7 +45,7 @@ Usually caused by slow hard drive or if GPU acceleration is disabled. To mitigat
 
 Usually caused by firewall blocking Playnite processes (check firewall settings) or by DNS functionality being broken on ISP's side. For the latter switch to using CloudFlare's or Google's DNS:
 
-https://developers.cloudflare.com/1.1.1.1/setup/windows/
+https://developers.cloudflare.com/1.1.1.1/setup/windows/  
 https://developers.google.com/speed/public-dns/docs/using#windows
 
 ### Web view component fails to initialize
