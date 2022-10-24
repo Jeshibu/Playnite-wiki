@@ -1,3 +1,10 @@
+### General download issues
+
+Usually caused by firewall blocking Playnite installer (check firewall settings) or by DNS functionality being broken on ISP's side. For the latter, switch to using CloudFlare's or Google's DNS:
+
+https://developers.cloudflare.com/1.1.1.1/setup/windows/  
+https://developers.google.com/speed/public-dns/docs/using#windows
+
 ### Can't install into specific folder
 
 Happens if the installer doesn't have permissions to write to selected destination. Use different location if that happens.
