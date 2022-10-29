@@ -48,6 +48,8 @@ Usually caused by firewall blocking Playnite processes (check firewall settings)
 https://developers.cloudflare.com/1.1.1.1/setup/windows/  
 https://developers.google.com/speed/public-dns/docs/using#windows
 
+Restarting network router also helped to some people.
+
 ### Web view component fails to initialize
 
 Usually happens when some program files are missing, damaged or blocked. You can try following to fix the issue:
