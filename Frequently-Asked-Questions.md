@@ -27,10 +27,6 @@ You may get this dialog in several cases, some examples include:
 
 ### How do I backup Playnite library and move it to another PC?
 
-Playnite 10 has added an option to backup and restore library data from Library menu in Desktop mode.
-
-Alternative backup options:
-
 - If using portable version, just move the whole installation folder.
 - If using installed version, then you need to move [%appdata%\Playnite](#Preamble) folder, which contains all user information.
 
