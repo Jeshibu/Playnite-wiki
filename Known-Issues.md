@@ -126,3 +126,7 @@ Users reported these issue when installing Playnite via Chocolatey. Chocolatey i
 ### webp images don't display properly
 
 Install this: https://www.microsoft.com/en-us/p/webp-image-extensions/9pg2dk419drg
+
+### Rendering issues while streaming Playnite
+
+Caused by an incompatibility between streaming software (Moonlight, Parsec etc.) and UI library Playnite uses (WPF). Since Playnite has virtually no control over how the actual rendering is performed (it's obfuscated by WPF), any rendering issue can't be fixed in Playnite itself. WPF is now more or less in a maintenance mode, so we recommend reporting these issues to developers of specific streaming software, because it's more likely to get fixed there.
