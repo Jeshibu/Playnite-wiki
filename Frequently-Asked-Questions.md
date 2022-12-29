@@ -6,6 +6,12 @@ If you see any path on this page that starts with `%appdata%` or `%localappdata%
 
 Playnite is a combination of `Play` and `Unite`.
 
+### Can I link multiple accounts?
+
+You can't, unless a library integration plugin explicitly supports it (gives you an option to link multiple accounts).
+
+You can however link one account, import games, link a different account, import games again and you'll end up with a library that contains games from both accounts. Playnite never automatically removed games from the library so linking a different account won't affect games from other accounts in any way.
+
 ### What is Safe Mode?
 
 Safe Mode starts Playnite with all 3rd party extensions disabled and using only default theme.
