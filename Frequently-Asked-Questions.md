@@ -70,16 +70,25 @@ Playnite supports auto update feature, you don't have to download and install up
 
 Portable editions have settings stored in `config.json` directly in Playnite's folder. Installed versions store settings in [%AppData%\Playnite\config.json](#Preamble) file.
 
+### My games are not importing
+1. Check that your library plugin is configured and authenticated correctly via `main menu > Add-ons > Extension settings > Libraries` - make sure especially that uninstalled games are set to import if that setting is available
+2. Make sure that you're logged into the right account with the library plugin
+3. Check if the game is present in `main menu > Settings > Import exclusion list`
+
+### My games are gone
+1. **Filtered**: Does it say "Filter enabled" in the top bar? If so, right click that text, or enable the filter panel with `ctrl+G` and click `Clear filters` at the top
+2. **Hidden**: In the filter panel, check the `Hidden` checkbox
+
 ### How do I unhide game?
 
 Use "funnel" filter button next to the search field to open filter panel, select `Hidden` filter, right-click on hidden game and choose `Show in Library` option.
 
 ### How do I convert installed version to portable?
 
-* Shutdown Playnite
-* Copy content of [%appdata%\Playnite](#Preamble) into Playnite's application folder
-* Delete `unins000.exe` and `unins000.dat` files
-* Edit `config.json` and change `DatabasePath` property value to `"library"`
+1. Shutdown Playnite
+2. Copy content of [%appdata%\Playnite](#Preamble) into Playnite's application folder
+3. Delete `unins000.exe` and `unins000.dat` files
+4. Edit `config.json` and change `DatabasePath` property value to `"library"`
 
 ### How do I start additional application(s) before game starts and kill it after game exits?
 
